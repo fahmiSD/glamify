@@ -13,6 +13,7 @@ module.exports = {
     fontFamily: {
       poppins: ['Poppins'],
       inter: ['Inter'],
+      montserrat: ['Montserrat'],
     },
     extend: {
       colors: {
