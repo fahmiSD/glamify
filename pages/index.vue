@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="pt-10">
     <div class="flex justify-center">
       <p
-        class="text-[#fbf5e3] font-bold text-7xl text-center tracking-wide leading-tight"
+        class="text-[#fbf5e3] font-bold text-6xl text-center tracking-wide leading-tight font-poppins"
       >
         Rate your favorite beauty <br />products
       </p>
@@ -111,7 +111,7 @@
     </div>
 
     <div class="flex justify-center items-center">
-      <p class="text-[#fbf5e3] text-5xl">
+      <p class="text-[#fbf5e3] text-4xl font-poppins">
         Explore new products recommended by similar users
       </p>
     </div>
@@ -219,7 +219,7 @@
     </div>
 
     <div class="flex justify-center items-center">
-      <p class="text-[#fbf5e3] text-5xl">Will you help out?</p>
+      <p class="text-[#fbf5e3] text-4xl font-poppins">Will you help out?</p>
     </div>
 
     <div id="controls-carousel" class="relative" data-carousel="static">
@@ -324,20 +324,20 @@
       </button>
     </div>
 
-    <div class="flex justify-center items-center mb-3">
+    <div class="flex justify-center items-center mb-5">
       <button
         class="bg-[#fbf5e3] rounded-lg px-6 py-2 text-[#164d4d] font-bold"
       >
         REQUEST RECOMENDATION
       </button>
     </div>
-    <div class="flex justify-center items-center mb-10">
-      <p class="text-[#fbf5e3] text-5xl">
+    <div class="flex justify-center items-center mb-16">
+      <p class="text-[#fbf5e3] text-4xl font-poppins">
         Explore products based on the problem to solve
       </p>
     </div>
 
-    <div class="flex justify-center items-center mb-10">
+    <div class="flex justify-center items-center mb-16">
       <div class="grid grid-cols-4 gap-10">
         <div class="flex justify-center items-center">
           <p class="absolute text-[#fbf5e3]">Psoriasis</p>
@@ -358,14 +358,57 @@
       </div>
     </div>
 
-    <div class="bg-[#0C3434]">
-      <div class="flex justify-center">
-        <p class="text-[#fbf5e3] font-bold text-xl">glamy beauty</p>
+    <div class="bg-[#0C3434] h-[406px] py-5">
+      <div class="flex justify-center mb-6">
+        <p class="text-[#fbf5e3] font-bold text-xl font-poppins">
+          glamy beauty
+        </p>
       </div>
-      <div class="flex justify-center items-center mb-10">
-        <p class="text-[#fbf5e3] text-5xl">
+      <div class="flex justify-center items-center mb-8">
+        <p class="text-[#fbf5e3] text-4xl font-poppins">
           Receive updates on the latest products!
         </p>
+      </div>
+
+      <div class="flex justify-center">
+        <form>
+          <div class="flex gap-8">
+            <input
+              class="w-[210px] h-[58px] mb-[24px] rounded-[20px] bg-[#164D4D] border border-[#E6E6E6] focus:outline-none focus:ring focus:ring-[#FBF5E3] text-center text-[#FBF5E3] placeholder:font-inter placeholder:text-center placeholder:text-[#FBF5E3]"
+              placeholder="Name..."
+              required
+            /><input
+              class="w-[210px] h-[58px] mb-[24px] rounded-[20px] bg-[#164D4D] border border-[#E6E6E6] focus:outline-none focus:ring focus:ring-[#FBF5E3] text-center text-[#FBF5E3] placeholder:font-inter placeholder:text-center placeholder:text-[#FBF5E3]"
+              placeholder="Last Name..."
+              required
+            />
+          </div>
+          <div>
+            <input
+              class="w-[450px] h-[58px] mb-[24px] rounded-[20px] bg-[#164D4D] border border-[#E6E6E6] focus:outline-none focus:ring focus:ring-[#FBF5E3] text-center text-[#FBF5E3] placeholder:font-inter placeholder:text-center placeholder:text-[#FBF5E3]"
+              placeholder="email..."
+              required
+            />
+          </div>
+          <div class="flex justify-center">
+            <button
+              type="submit"
+              class="bg-[#FBF5E3] rounded-[10px] w-[119px] h-[40px]"
+            >
+              <p class="text-[#164D4D] font-inter font-bold">SUBMIT</p>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="bg-[#0C3434] h-[246px] py-5">
+      <div class="flex justify-center">
+        <div class="max-w-[450px] flex gap-12">
+          <p class="text-white font-poppins">About us</p>
+          <p class="text-white font-poppins">The plaform</p>
+          <p class="text-white font-poppins">Contact</p>
+          <p class="text-white font-poppins">Imprint</p>
+        </div>
       </div>
     </div>
   </div>
@@ -377,8 +420,5 @@
 h2 {
   margin-bottom: 20px;
   font-size: 36px;
-}
-p {
-  margin: 20px 0;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="shadow-sm bg-[#0C3434]">
+    <header class="shadow-sm bg-[#0C3434] sticky top-0 z-50">
       <nav class="container mx-auto h-[79px] flex items-center justify-around">
         <NuxtLink to="/"
           ><p class="text-white font-bold text-xl">glamy beauty</p></NuxtLink
@@ -56,7 +56,7 @@
             >
           </li>
           <li>
-            <NuxtLink to="/products" class="btn"
+            <NuxtLink to="/login" class="btn"
               ><p class="text-white text-center">
                 Login / <br />Sign up
               </p></NuxtLink
@@ -67,7 +67,7 @@
     </header>
 
     <!-- output the page content -->
-    <div class="bg-green h-screen">
+    <div class="bg-green h-full">
       <slot />
     </div>
   </div>
