@@ -10,6 +10,10 @@ module.exports = {
     "./node_modules/flowbite.{js,ts}",
   ],
   theme: {
+    fontFamily: {
+      poppins: ['Poppins'],
+      inter: ['Inter'],
+    },
     extend: {
       colors: {
         green: "#164D4D",

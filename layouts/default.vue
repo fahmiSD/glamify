@@ -40,10 +40,8 @@
     </header>
 
     <!-- output the page content -->
-    <div class="bg-green">
-      <div class="container mx-auto p-4">
-        <slot />
-      </div>
+    <div class="bg-green h-screen">
+      <slot />
     </div>
   </div>
 </template>
@@ -55,5 +53,6 @@
 
 body {
   background-color: #164d4d;
+  margin: 0px;
 }
 </style>
