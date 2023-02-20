@@ -1,6 +1,6 @@
 <template>
   <div>
-    <header class="shadow-sm bg-[#0C3434] sticky top-0 z-50">
+    <header class="shadow-sm bg-[#0C3434] sticky top-0 z-50 px-20">
       <nav class="container mx-auto h-[79px] flex items-center justify-around">
         <NuxtLink to="/"
           ><p class="text-white font-bold text-xl">glamy beauty</p></NuxtLink
