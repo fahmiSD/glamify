@@ -27,10 +27,6 @@
 
 <style scoped>
 .router-link-exact-active {
-<<<<<<< HEAD
-  color: blue;
-=======
   color: #12b488;
->>>>>>> d49cb4963869d1bbabaecbcad44c1098aef64152
 }
 </style>
