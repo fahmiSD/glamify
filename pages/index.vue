@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-10">
+  <div class="pt-16">
     <div class="flex justify-center">
       <p
         class="text-[#fbf5e3] font-bold text-6xl text-center tracking-wide leading-tight font-poppins"
