@@ -37,16 +37,12 @@
 
       <div class="mb-[46px] flex justify-center">
         <div class="w-[10px] h-[10px] bg-[#FBF5E3] rounded-full mr-[27px]"></div>
-        <div class="w-[10px] h-[10px] border-solid border-2 border-[#FBF5E3] rounded-full mr-[27px]"></div>
-
-        <div class="w-[10px] h-[10px] border-solid border-2 border-[#FBF5E3] rounded-full mr-[27px]"></div>
-
         <div class="w-[10px] h-[10px] border-solid border-2 border-[#FBF5E3] rounded-full"></div>
       </div>
 
       <div class="text-center">
         <!-- <button type="submit" class="bg-[#FBF5E3] rounded-[10px] w-[119px] h-[40px]"><p class="text-[#164D4D] font-inter font-bold">NEXT</p></button> -->
-        <a href="/confirmEmail" class="bg-[#FBF5E3] px-[30px] py-[12px] rounded-[10px] w-[119px] h-[40px] text-[#164D4D] font-inter font-bold">NEXT</a>
+        <a href="/confirmEmail" class="bg-[#FBF5E3] px-[45px] py-[12px] rounded-[10px] w-[119px] h-[40px] text-[#164D4D] font-inter font-bold">NEXT</a>
       </div>
     </form>
   </div>
