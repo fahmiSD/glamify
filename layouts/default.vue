@@ -31,7 +31,7 @@
             >
           </li>
           <li>
-            <NuxtLink to="/products" class="btn"
+            <NuxtLink to="/login" class="btn"
               ><p class="text-white text-center">Login / <br />Sign up</p></NuxtLink
             >
           </li>
@@ -40,7 +40,7 @@
     </header>
 
     <!-- output the page content -->
-    <div class="bg-green h-screen">
+    <div class="bg-green h-full">
       <slot />
     </div>
   </div>
