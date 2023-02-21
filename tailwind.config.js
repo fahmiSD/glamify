@@ -11,8 +11,8 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      poppins: ['Poppins'],
-      inter: ['Inter'],
+      poppins: ["Poppins"],
+      inter: ["Inter"],
     },
     extend: {
       colors: {
