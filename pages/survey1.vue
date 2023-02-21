@@ -4,21 +4,21 @@
       <div>
         <p class="font-poppins text-[36px] text-[#FBF5E3] mb-[17px] text-center">External factors<br />affecting your skin</p>
       </div>
-      <div>
+      <div class="flex justify-center items-center">
         <input
           class="w-[450px] h-[58px] mb-[24px] rounded-[20px] bg-[##F9F9F9] border border-[#E6E6E6] focus:outline-none ring-inset focus:ring focus:ring-[#207a7a] text-center text-[#131414] placeholder:font-inter placeholder:text-center placeholder:text-[#737373]"
           placeholder="City (sun exposure, pollution)"
           required
         />
       </div>
-      <div>
+      <div class="flex justify-center items-center">
         <input
           class="w-[450px] h-[58px] mb-[24px] rounded-[20px] bg-[##F9F9F9] border border-[#E6E6E6] focus:outline-none ring-inset focus:ring focus:ring-[#207a7a] text-center text-[#131414] placeholder:font-inter placeholder:text-center placeholder:text-[#737373]"
           placeholder="What type of activity do you develop?"
           required
         />
       </div>
-      <div>
+      <div class="flex justify-center items-center">
         <input
           class="w-[450px] h-[58px] mb-[31px] rounded-[20px] bg-[##F9F9F9] border border-[#E6E6E6] focus:outline-none ring-inset focus:ring focus:ring-[#207a7a] text-center text-[#131414] placeholder:font-inter placeholder:text-center placeholder:text-[#737373]"
           placeholder="Do you hydrate frequently?"
