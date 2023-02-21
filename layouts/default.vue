@@ -29,11 +29,11 @@
             >
           </li>
           <li>
-            <NuxtLink to="/detail-product"
+            <a href="/detail-product"
               ><p class="text-white text-center">
                 Review <br />
                 Product
-              </p></NuxtLink
+              </p></a
             >
           </li>
           <li>
