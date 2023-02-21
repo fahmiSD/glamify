@@ -11,9 +11,9 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      poppins: ['Poppins'],
-      inter: ['Inter'],
-      montserrat: ['Montserrat'],
+      poppins: ["Poppins"],
+      inter: ["Inter"],
+      montserrat: ["Montserrat"],
     },
     extend: {
       colors: {
