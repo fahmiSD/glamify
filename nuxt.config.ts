@@ -113,6 +113,31 @@ export default defineNuxtConfig({
               input.checked = true;
             }	
           }
+
+          function checkSkin(input)
+          {
+            
+            var checkboxes = document.getElementsByClassName("radioCheckSkin");
+            
+            for(var i = 0; i < checkboxes.length; i++)
+            {
+              //uncheck all
+              if(checkboxes[i].checked == true)
+              {
+                checkboxes[i].checked = false;
+              }
+            }
+            
+            //set checked of clicked object
+            if(input.checked == true)
+            {
+              input.checked = false;
+            }
+            else
+            {
+              input.checked = true;
+            }	
+          }
           `,
           type: "text/javascript",
         },
