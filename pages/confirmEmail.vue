@@ -21,7 +21,7 @@
 
       <div class="text-center">
         <!-- <button type="submit" class="bg-[#FBF5E3] rounded-[10px] w-[119px] h-[40px]"><p class="text-[#164D4D] font-inter font-bold">CHECK EMAIL</p></button> -->
-        <a href="/survey1" class="bg-[#FBF5E3] px-[30px] py-[12px] rounded-[10px] w-[119px] h-[40px] text-[#164D4D] font-inter font-bold">CHECK EMAIL</a>
+        <nuxtLink to="/survey1" class="bg-[#FBF5E3] px-[30px] py-[12px] rounded-[10px] w-[119px] h-[40px] text-[#164D4D] font-inter font-bold">CHECK EMAIL</nuxtLink>
       </div>
     </form>
   </div>
