@@ -2,7 +2,41 @@
   <div class="py-16 px-32">
     <div class="grid grid-cols-12 gap-8">
       <div class="col-span-4">
-        <div class="bg-white w-full h-[256px] rounded-xl mb-8"></div>
+        <div class="bg-white h-[256px] w-full rounded-3xl p-5 mb-8">
+          <div class="flex justify-end">
+            <div class="absolute">
+              <div
+                class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
+              >
+                <img src="/like.svg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="flex justify-center">
+            <div class="absolute mt-16">
+              <button
+                class="text-[#fbf5e3] font-semibold bg-[#164d4d] border border-[#fbf5e3] rounded-xl px-10 py-3"
+              >
+                REVIEW
+              </button>
+            </div>
+          </div>
+          <div class="flex justify-center mb-1">
+            <img src="/retinol.svg" alt="retinol" width="105px" />
+          </div>
+          <div class="flex gap-1 justify-center mb-1">
+            <img src="/yellowStar.svg" alt="star" width="20px" />
+            <img src="/yellowStar.svg" alt="star" width="20px" />
+            <img src="/yellowStar.svg" alt="star" width="20px" />
+            <img src="/yellowStar.svg" alt="star" width="20px" />
+            <img src="/halfYellowStar.svg" alt="star" width="10px" />
+            <p class="text-[#797878]">(5)</p>
+          </div>
+          <p class="font-semibold text-center text-[#164d4d] mb-1">
+            Retinol in squalane 0.2%
+          </p>
+          <p class="font-semibold text-center text-[#797878]">The ordinary</p>
+        </div>
         <div class="bg-white w-full h-[166px] rounded-2xl mb-8 p-3">
           <p class="text-[#164d4d] text-center font-inter font-semibold">
             Description
@@ -175,7 +209,11 @@
           <p class="text-[#fbf5e3] font-poppins text-xl">Featured in</p>
         </div>
         <div class="grid grid-cols-2 gap-8">
-          <div class="bg-white w-full h-[277px] rounded-3xl p-5">
+          <div class="bg-white h-[245px] w-full rounded-3xl p-5 mb-4">
+            <div class="flex justify-center items-center mb-2">
+              <img src="/lighting.svg" alt="lighting" />
+              <img src="/brush.svg" alt="brush" />
+            </div>
             <p class="text-center mb-5">
               “I have a very formal event tomorrow and need help finding a long
               stay red lipstick! I won’t have time to retouch it for hours and
@@ -183,13 +221,17 @@
             </p>
             <div class="flex justify-center">
               <button
-                class="bg-[#164d4d] text-[#ffffff] rounded-xl px-10 py-1 font-semibold"
+                class="bg-[#164d4d] text-[#ffffff] rounded-xl text-sm px-2 py-1 font-bold"
               >
-                VIEW
+                RECOMMEND NOW
               </button>
             </div>
           </div>
-          <div class="bg-white w-full h-[277px] rounded-3xl p-5">
+          <div class="bg-white h-[245px] w-full rounded-3xl p-5 mb-4">
+            <div class="flex justify-center items-center mb-2">
+              <img src="/lighting.svg" alt="lighting" />
+              <img src="/brush.svg" alt="brush" />
+            </div>
             <p class="text-center mb-5">
               “I have a very formal event tomorrow and need help finding a long
               stay red lipstick! I won’t have time to retouch it for hours and
@@ -197,9 +239,9 @@
             </p>
             <div class="flex justify-center">
               <button
-                class="bg-[#164d4d] text-[#ffffff] rounded-xl px-10 py-1 font-semibold"
+                class="bg-[#164d4d] text-[#ffffff] rounded-xl text-sm px-2 py-1 font-bold"
               >
-                VIEW
+                RECOMMEND NOW
               </button>
             </div>
           </div>
