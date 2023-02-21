@@ -11,14 +11,9 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-<<<<<<< HEAD
-      poppins: ['Poppins'],
-      inter: ['Inter'],
-      montserrat: ['Montserrat'],
-=======
       poppins: ["Poppins"],
       inter: ["Inter"],
->>>>>>> 45899d2 (add detail-product)
+      montserrat: ["Montserrat"],
     },
     extend: {
       colors: {
