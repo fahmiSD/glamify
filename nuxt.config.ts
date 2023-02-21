@@ -117,6 +117,9 @@ export default defineNuxtConfig({
           type: "text/javascript",
         },
       ],
+      bodyAttrs: {
+        class: "bg-green",
+      },
     },
   },
   googleFonts: {

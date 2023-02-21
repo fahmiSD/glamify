@@ -9,7 +9,7 @@
               <input
                 type="search"
                 id="search-dropdown"
-                class="block p-2.5 pl-[26px] w-full h-[55px] z-20 text-sm text-gray-900 bg-gray-50 rounded-2xl border-gray-50 border focus:outline-none ring-inset focus:ring focus:ring-[#164D4D]"
+                class="block p-2.5 pl-[26px] w-full h-[55px] z-20 text-sm text-gray-900 bg-gray-50 rounded-2xl border border-[#E6E6E6] focus:outline-none focus:border-[#164D4D] ring-inset focus:ring focus:ring-[#164D4D]"
                 placeholder="Search for your product..."
                 required
               />
