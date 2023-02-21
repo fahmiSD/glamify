@@ -4,14 +4,14 @@ export default defineNuxtConfig({
   css: ["~/assets/css/main.css"],
   app: {
     head: {
-      // link: [{ rel: "stylesheet", type: "text/css", href: "https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.css" }],
+        link: [{ rel: "stylesheet", type: "text/css", href: "https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.css" }],
       script: [
-        // {
-        //   src: "https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.js",
-        // },
-        // {
-        //   src: "https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/datepicker.js",
-        // },
+        {
+          src: "https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/flowbite.js",
+        },
+        {
+          src: "https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.3/datepicker.js",
+        },
         {
           innerHTML: `
           function checkSmoke(input)
