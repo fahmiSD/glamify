@@ -15,7 +15,7 @@
           <!-- Item 1 -->
           <div class="hidden duration-500 py-16 ease-in-out" data-carousel-item>
             <div
-              class="grid grid-cols-3 place-content-center px-20 place-items-center"
+              class="place-content-center grid grid-cols-3 px-20 place-items-center"
             >
               <div class="bg-[#ebf4fa] h-[240px] w-[360px] rounded-3xl p-8">
                 <div class="flex justify-around gap-3 items-center mb-5">
@@ -341,7 +341,7 @@
           data-carousel-prev
         >
           <span
-            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white group-focus:outline-none"
           >
             <svg
               aria-hidden="true"
@@ -367,7 +367,7 @@
           data-carousel-next
         >
           <span
-            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-white group-focus:outline-none"
           >
             <svg
               aria-hidden="true"
@@ -533,7 +533,11 @@
                     <div
                       class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
                     >
-                      <img src="/like.svg" alt="" />
+                      <input
+                        type="radio"
+                        name="rating-3"
+                        class="mask mask-heart bg-red-400"
+                      />
                     </div>
                   </div>
                 </div>
@@ -768,7 +772,7 @@
           data-carousel-prev
         >
           <span
-            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white group-focus:outline-none"
           >
             <svg
               aria-hidden="true"
@@ -794,7 +798,7 @@
           data-carousel-next
         >
           <span
-            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white group-focus:outline-none"
           >
             <svg
               aria-hidden="true"
@@ -831,6 +835,12 @@
               class="grid grid-cols-3 place-content-center px-20 place-items-center"
             >
               <div class="bg-white h-[245px] w-[360px] rounded-3xl p-5">
+                <img
+                  :src="save1"
+                  @click="changeSave1"
+                  alt="save"
+                  class="absolute top-[60px] left-32 cursor-pointer"
+                />
                 <div class="flex justify-center items-center mb-2">
                   <img src="/lighting.svg" alt="lighting" />
                   <img src="/brush.svg" alt="brush" />
@@ -850,6 +860,12 @@
                 </div>
               </div>
               <div class="bg-white h-[245px] w-[360px] rounded-3xl p-5">
+                <img
+                  :src="save2"
+                  @click="changeSave2"
+                  alt="save"
+                  class="absolute top-[60px] left-[500px] cursor-pointer"
+                />
                 <div class="flex justify-center items-center mb-2">
                   <img src="/lighting.svg" alt="lighting" />
                   <img src="/brush.svg" alt="brush" />
@@ -869,6 +885,12 @@
                 </div>
               </div>
               <div class="bg-white h-[245px] w-[360px] rounded-3xl p-5">
+                <img
+                  :src="save3"
+                  @click="changeSave3"
+                  alt="save"
+                  class="absolute top-[60px] right-[390px] cursor-pointer"
+                />
                 <div class="flex justify-center items-center mb-2">
                   <img src="/lighting.svg" alt="lighting" />
                   <img src="/brush.svg" alt="brush" />
@@ -898,6 +920,12 @@
               class="grid grid-cols-3 px-20 place-content-center place-items-center"
             >
               <div class="bg-white h-[245px] w-[360px] rounded-3xl p-5">
+                <img
+                  :src="save4"
+                  @click="changeSave4"
+                  alt="save"
+                  class="absolute top-[60px] left-32 cursor-pointer"
+                />
                 <div class="flex justify-center items-center mb-2">
                   <img src="/lighting.svg" alt="lighting" />
                   <img src="/brush.svg" alt="brush" />
@@ -917,6 +945,12 @@
                 </div>
               </div>
               <div class="bg-white h-[245px] w-[360px] rounded-3xl p-5">
+                <img
+                  :src="save5"
+                  @click="changeSave5"
+                  alt="save"
+                  class="absolute top-[60px] left-[500px] cursor-pointer"
+                />
                 <div class="flex justify-center items-center mb-2">
                   <img src="/lighting.svg" alt="lighting" />
                   <img src="/brush.svg" alt="brush" />
@@ -936,6 +970,12 @@
                 </div>
               </div>
               <div class="bg-white h-[245px] w-[360px] rounded-3xl p-5">
+                <img
+                  :src="save6"
+                  @click="changeSave6"
+                  alt="save"
+                  class="absolute top-[60px] right-[390px] cursor-pointer"
+                />
                 <div class="flex justify-center items-center mb-2">
                   <img src="/lighting.svg" alt="lighting" />
                   <img src="/brush.svg" alt="brush" />
@@ -962,6 +1002,12 @@
               class="grid grid-cols-3 px-20 place-content-center place-items-center"
             >
               <div class="bg-white h-[245px] w-[360px] rounded-3xl p-5">
+                <img
+                  :src="save7"
+                  @click="changeSave7"
+                  alt="save"
+                  class="absolute top-[60px] left-32 cursor-pointer"
+                />
                 <div class="flex justify-center items-center mb-2">
                   <img src="/lighting.svg" alt="lighting" />
                   <img src="/brush.svg" alt="brush" />
@@ -981,6 +1027,12 @@
                 </div>
               </div>
               <div class="bg-white h-[245px] w-[360px] rounded-3xl p-5">
+                <img
+                  :src="save8"
+                  @click="changeSave8"
+                  alt="save"
+                  class="absolute top-[60px] left-[500px] cursor-pointer"
+                />
                 <div class="flex justify-center items-center mb-2">
                   <img src="/lighting.svg" alt="lighting" />
                   <img src="/brush.svg" alt="brush" />
@@ -1000,6 +1052,12 @@
                 </div>
               </div>
               <div class="bg-white h-[245px] w-[360px] rounded-3xl p-5">
+                <img
+                  :src="save9"
+                  @click="changeSave9"
+                  alt="save"
+                  class="absolute top-[60px] right-[390px] cursor-pointer"
+                />
                 <div class="flex justify-center items-center mb-2">
                   <img src="/lighting.svg" alt="lighting" />
                   <img src="/brush.svg" alt="brush" />
@@ -1028,7 +1086,7 @@
           data-carousel-prev
         >
           <span
-            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white group-focus:outline-none"
           >
             <svg
               aria-hidden="true"
@@ -1054,7 +1112,7 @@
           data-carousel-next
         >
           <span
-            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none"
+            class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 group-hover:bg-white/50 group-focus:ring-4 group-focus:ring-white group-focus:outline-none"
           >
             <svg
               aria-hidden="true"
@@ -1154,6 +1212,7 @@
         </form>
       </div>
     </div>
+
     <div class="bg-[#0C3434] h-[246px] py-5">
       <div class="flex justify-center">
         <div class="max-w-[450px] flex gap-12">
@@ -1167,7 +1226,88 @@
   </div>
 </template>
 
-<script setup></script>
+<script>
+export default {
+  data() {
+    return {
+      save1: "saveGray.svg",
+      save2: "saveGray.svg",
+      save3: "saveGray.svg",
+      save4: "saveGray.svg",
+      save5: "saveGray.svg",
+      save6: "saveGray.svg",
+      save7: "saveGray.svg",
+      save8: "saveGray.svg",
+      save9: "saveGray.svg",
+    };
+  },
+  methods: {
+    changeSave1() {
+      if (this.save1 == "saveGray.svg") {
+        this.save1 = "saveGold.svg";
+      } else {
+        this.save1 = "saveGray.svg";
+      }
+    },
+    changeSave2() {
+      if (this.save2 == "saveGray.svg") {
+        this.save2 = "saveGold.svg";
+      } else {
+        this.save2 = "saveGray.svg";
+      }
+    },
+    changeSave3() {
+      if (this.save3 == "saveGray.svg") {
+        this.save3 = "saveGold.svg";
+      } else {
+        this.save3 = "saveGray.svg";
+      }
+    },
+    changeSave4() {
+      if (this.save4 == "saveGray.svg") {
+        this.save4 = "saveGold.svg";
+      } else {
+        this.save4 = "saveGray.svg";
+      }
+    },
+    changeSave5() {
+      if (this.save5 == "saveGray.svg") {
+        this.save5 = "saveGold.svg";
+      } else {
+        this.save5 = "saveGray.svg";
+      }
+    },
+    changeSave6() {
+      if (this.save6 == "saveGray.svg") {
+        this.save6 = "saveGold.svg";
+      } else {
+        this.save6 = "saveGray.svg";
+      }
+    },
+    changeSave7() {
+      if (this.save7 == "saveGray.svg") {
+        this.save7 = "saveGold.svg";
+      } else {
+        this.save7 = "saveGray.svg";
+      }
+    },
+    changeSave8() {
+      if (this.save8 == "saveGray.svg") {
+        this.save8 = "saveGold.svg";
+      } else {
+        this.save8 = "saveGray.svg";
+      }
+    },
+    changeSave9() {
+      if (this.save9 == "saveGray.svg") {
+        this.save9 = "saveGold.svg";
+      } else {
+        this.save9 = "saveGray.svg";
+      }
+    },
+  },
+};
+</script>
 
 <style scoped>
 h2 {
