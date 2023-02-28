@@ -86,27 +86,27 @@
                             <input
                               type="radio"
                               name="rating-8"
-                              class="mask mask-star-2 bg-[#ddba40] form-radio text-[#ddba40]"
+                              class="mask mask-star-2 bg-[#ddba40] form-radio text-[#ddba40] checked:bg-none"
                             />
                             <input
                               type="radio"
                               name="rating-8"
-                              class="mask mask-star-2 bg-[#ddba40] form-radio text-[#ddba40]"
+                              class="mask mask-star-2 bg-[#ddba40] form-radio text-[#ddba40] checked:bg-none"
                             />
                             <input
                               type="radio"
                               name="rating-8"
-                              class="mask mask-star-2 bg-[#ddba40] form-radio text-[#ddba40]"
+                              class="mask mask-star-2 bg-[#ddba40] form-radio text-[#ddba40] checked:bg-none"
                             />
                             <input
                               type="radio"
                               name="rating-8"
-                              class="mask mask-star-2 bg-[#ddba40] form-radio text-[#ddba40]"
+                              class="mask mask-star-2 bg-[#ddba40] form-radio text-[#ddba40] checked:bg-none"
                             />
                             <input
                               type="radio"
                               name="rating-8"
-                              class="mask mask-star-2 bg-[#ddba40] form-radio text-[#ddba40]"
+                              class="mask mask-star-2 bg-[#ddba40] form-radio text-[#ddba40] checked:bg-none"
                             />
                           </div>
                           <form action="">
