@@ -14,154 +14,118 @@
           </div>
           <div class="flex justify-center">
             <div class="absolute mt-16">
-              <!-- Modal toggle -->
-              <button
-                data-modal-target="ratingModal"
-                data-modal-toggle="ratingModal"
+              <!-- The button to open modal -->
+              <label
+                for="my-modal-3"
                 class="text-[#fbf5e3] font-semibold bg-[#164d4d] border border-[#fbf5e3] rounded-xl px-10 py-3 hidden group-hover:block"
-                type="button"
+                >REVIEW</label
               >
-                REVIEW
-              </button>
-              <!-- Main modal -->
-              <div
-                id="ratingModal"
-                tabindex="-1"
-                aria-hidden="true"
-                class="fixed top-0 left-0 right-0 z-50 hidden w-full p-4 overflow-x-hidden overflow-y-auto md:inset-0 h-modal md:h-full"
-              >
-                <div class="relative w-full h-full max-w-2xl md:h-auto">
-                  <!-- Modal content -->
-                  <div class="relative bg-white rounded-lg shadow">
-                    <!-- Modal header -->
-                    <div class="flex items-start justify-between p-2 rounded-t">
-                      <button
-                        type="button"
-                        class="text-gray-400 bg-transparent hover:bg-gray-200 hover:text-gray-900 rounded-lg text-sm p-1.5 ml-auto inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white"
-                        data-modal-hide="ratingModal"
-                      >
-                        <img src="/xModal.svg" alt="" />
-                      </button>
-                    </div>
-                    <!-- Modal body -->
-                    <div class="px-8 pb-8">
-                      <div class="grid grid-cols-6 gap-3">
-                        <div class="col-span-3">
-                          <div class="flex justify-center mb-3">
-                            <img src="/retinol.svg" alt="" width="120px" />
-                          </div>
-                          <div class="flex justify-center">
-                            <p
-                              class="font-semibold text-center text-[#164d4d] mb-3 text-lg"
-                            >
-                              Retinol in squalane 0.2%
-                            </p>
-                          </div>
-                          <p
-                            class="font-semibold text-lg text-center text-[#797878] mb-7"
-                          >
-                            The ordinary
-                          </p>
-                          <div class="flex justify-center gap-5 mb-3">
-                            <img src="/iModal.svg" alt="" />
-                            <p class="text-[#618686] font-semibold text-lg">
-                              How to review
-                            </p>
-                          </div>
-                          <p class="text-center text-[#618686] mb-3 font-light">
-                            1. Rate with stars
-                          </p>
-                          <p class="text-center text-[#618686] mb-3 font-light">
-                            2. Describe your experience using the product and
-                            provide tips on how to get the best results 
-                          </p>
-                          <p class="text-center text-[#618686] mb-3 font-light">
-                            3. List the purpose or intent when using the product
-                          </p>
-                        </div>
-                        <div class="col-span-3 p-2">
-                          <div
-                            class="rating rating-lg flex justify-center gap-2 pb-3"
-                          >
-                            <input
-                              type="radio"
-                              name="rating-8"
-                              class="mask mask-star-2 bg-[#ddba40] form-radio text-[#ddba40] checked:bg-none"
-                            />
-                            <input
-                              type="radio"
-                              name="rating-8"
-                              class="mask mask-star-2 bg-[#ddba40] form-radio text-[#ddba40] checked:bg-none"
-                            />
-                            <input
-                              type="radio"
-                              name="rating-8"
-                              class="mask mask-star-2 bg-[#ddba40] form-radio text-[#ddba40] checked:bg-none"
-                            />
-                            <input
-                              type="radio"
-                              name="rating-8"
-                              class="mask mask-star-2 bg-[#ddba40] form-radio text-[#ddba40] checked:bg-none"
-                            />
-                            <input
-                              type="radio"
-                              name="rating-8"
-                              class="mask mask-star-2 bg-[#ddba40] form-radio text-[#ddba40] checked:bg-none"
-                            />
-                          </div>
-                          <form action="">
-                            <textarea
-                              name=""
-                              v-model="input1"
-                              @input="checkFilled"
-                              id=""
-                              cols="30"
-                              rows="10"
-                              class="rounded-3xl border-2 border-[#e6e6e6] bg-[#f9f9f9] focus:outline-none ring-inset focus:ring focus:ring-[#207a7a] focus:border-[#207a7a] placeholder:text-center placeholder:font-light text-center p-3"
-                              placeholder="Describe your experience with the product... Did you like it? Do you have any tips on how to make the most out of the product?..."
-                            ></textarea>
-                            <textarea
-                              name=""
-                              v-model="input2"
-                              @input="checkFilled"
-                              id=""
-                              cols="30"
-                              rows="5"
-                              class="rounded-3xl border-2 border-[#e6e6e6] bg-[#f9f9f9] focus:outline-none ring-inset focus:ring focus:ring-[#207a7a] focus:border-[#207a7a] placeholder:text-center placeholder:font-light text-center p-3"
-                              placeholder="Purpose of using the product: eg. antiaging, spots, imperfections..."
-                            ></textarea>
-                            <div class="flex justify-center">
-                              <button :class="buttonClass">PUBLISH</button>
-                            </div>
-                          </form>
-                        </div>
+
+              <!-- Put this part before </body> tag -->
+              <input type="checkbox" id="my-modal-3" class="modal-toggle" />
+              <div class="modal">
+                <div class="modal-box relative bg-white w-[550px] h-[486px]">
+                  <label for="my-modal-3" class="absolute right-4 top-4"
+                    ><img src="/xModal.svg" alt=""
+                  /></label>
+                  <div class="grid grid-cols-7 gap-3 pt-3">
+                    <div class="col-span-3">
+                      <div class="flex justify-center mb-3">
+                        <img src="/retinol.svg" alt="" width="104px" />
                       </div>
+                      <div class="flex justify-center">
+                        <p
+                          class="font-semibold text-center text-[#164d4d] mb-3 text-sm"
+                        >
+                          Retinol in squalane 0.2%
+                        </p>
+                      </div>
+                      <p
+                        class="font-semibold text-sm text-center text-[#797878] mb-7"
+                      >
+                        The ordinary
+                      </p>
+                      <div class="flex justify-center gap-5 mb-3">
+                        <img src="/iModal.svg" alt="" />
+                        <p class="text-[#618686] font-semibold text-sm">
+                          How to review
+                        </p>
+                      </div>
+                      <p
+                        class="text-center text-[#618686] mb-3 font-light text-xs"
+                      >
+                        1. Rate with stars
+                      </p>
+                      <p
+                        class="text-center text-[#618686] mb-3 font-light text-xs"
+                      >
+                        2. Describe your experience using the product and
+                        provide tips on how to get the best results 
+                      </p>
+                      <p
+                        class="text-center text-[#618686] mb-3 font-light text-xs"
+                      >
+                        3. List the purpose or intent when using the product
+                      </p>
+                    </div>
+                    <div class="col-span-4 p-2">
+                      <div
+                        class="rating rating-lg flex justify-center gap-2 pb-3"
+                      >
+                        <input
+                          type="radio"
+                          name="rating-8"
+                          class="mask mask-star-2 bg-[#ddba40] form-radio text-[#ddba40] checked:bg-none"
+                        />
+                        <input
+                          type="radio"
+                          name="rating-8"
+                          class="mask mask-star-2 bg-[#ddba40] form-radio text-[#ddba40] checked:bg-none"
+                        />
+                        <input
+                          type="radio"
+                          name="rating-8"
+                          class="mask mask-star-2 bg-[#ddba40] form-radio text-[#ddba40] checked:bg-none"
+                        />
+                        <input
+                          type="radio"
+                          name="rating-8"
+                          class="mask mask-star-2 bg-[#ddba40] form-radio text-[#ddba40] checked:bg-none"
+                        />
+                        <input
+                          type="radio"
+                          name="rating-8"
+                          class="mask mask-star-2 bg-[#ddba40] form-radio text-[#ddba40] checked:bg-none"
+                        />
+                      </div>
+                      <form action="">
+                        <textarea
+                          name=""
+                          v-model="input1"
+                          @input="checkFilled"
+                          id=""
+                          cols="25"
+                          rows="6"
+                          class="rounded-3xl border-2 border-[#e6e6e6] bg-[#f9f9f9] focus:outline-none ring-inset focus:ring focus:ring-[#207a7a] focus:border-[#207a7a] placeholder:text-center placeholder:font-light text-center p-3"
+                          placeholder="Describe your experience with the product... Did you like it? Do you have any tips on how to make the most out of the product?..."
+                        ></textarea>
+                        <textarea
+                          name=""
+                          v-model="input2"
+                          @input="checkFilled"
+                          id=""
+                          cols="25"
+                          rows="4"
+                          class="rounded-3xl border-2 border-[#e6e6e6] bg-[#f9f9f9] focus:outline-none ring-inset focus:ring focus:ring-[#207a7a] focus:border-[#207a7a] placeholder:text-center placeholder:font-light text-center p-3"
+                          placeholder="Purpose of using the product: eg. antiaging, spots, imperfections..."
+                        ></textarea>
+                        <div class="flex justify-center">
+                          <button :class="buttonClass">PUBLISH</button>
+                        </div>
+                      </form>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <!-- The button to open modal -->
-            <label for="my-modal-3" class="btn">open modal</label>
-
-            <!-- Put this part before </body> tag -->
-            <input type="checkbox" id="my-modal-3" class="modal-toggle" />
-            <div class="modal">
-              <div class="modal-box relative">
-                <label
-                  for="my-modal-3"
-                  class="btn btn-sm btn-circle absolute right-2 top-2"
-                  >✕</label
-                >
-                <h3 class="text-lg font-bold">
-                  Congratulations random Internet user!
-                </h3>
-                <p class="py-4">
-                  You've been selected for a chance to get one year of
-                  subscription to use Wikipedia for free!
-                </p>
               </div>
             </div>
           </div>
