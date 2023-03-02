@@ -149,7 +149,7 @@ export default defineNuxtConfig({
         },
       ],
       bodyAttrs: {
-        class: "bg-green",
+        class: "bg-[#164d4d] h-[1248px]",
       },
     },
   },
