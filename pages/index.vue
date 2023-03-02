@@ -390,6 +390,258 @@
       </div>
     </div>
 
+    <div class="flex justify-center items-center pb-16">
+      <div
+        class="carousel carousel-center p-4 space-x-4 bg-[#164d4d] rounded-box max-w-[1140px]"
+      >
+        <div class="carousel-item">
+          <div class="bg-[#ebf4fa] h-[240px] w-[360px] rounded-3xl p-8">
+            <div class="flex justify-around gap-3 items-center mb-5">
+              <p class="text-left text-xs max-w-[154px]">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud...”
+              </p>
+              <div class="w-[124px] h-[127px] bg-white rounded-xl">
+                <div class="flex justify-center">
+                  <img src="/retinol.svg" alt="" />
+                </div>
+                <p class="font-semibold text-center text-sm text-[#164d4d]">
+                  Retinol in squalane 0.2%
+                </p>
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div class="flex gap-2">
+                <img src="/merry.svg" alt="merry" width="31px" />
+                <div>
+                  <p class="text-sm font-semibold text-[#164d4d]">Mery</p>
+                  <p class="text-xs text-[#618686]">+14 upvotes</p>
+                </div>
+              </div>
+              <div class="flex gap-1">
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="bg-[#ebf4fa] h-[240px] w-[360px] rounded-3xl p-8">
+            <div class="flex justify-around gap-3 items-center mb-5">
+              <p class="text-left text-xs max-w-[154px]">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud...”
+              </p>
+              <div class="w-[124px] h-[127px] bg-white rounded-xl">
+                <div class="flex justify-center">
+                  <img src="/retinol.svg" alt="" />
+                </div>
+                <p class="font-semibold text-center text-sm text-[#164d4d]">
+                  Retinol in squalane 0.2%
+                </p>
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div class="flex gap-2">
+                <img src="/merry.svg" alt="merry" width="31px" />
+                <div>
+                  <p class="text-sm font-semibold text-[#164d4d]">Mery</p>
+                  <p class="text-xs text-[#618686]">+14 upvotes</p>
+                </div>
+              </div>
+              <div class="flex gap-1">
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="bg-[#ebf4fa] h-[240px] w-[360px] rounded-3xl p-8">
+            <div class="flex justify-around gap-3 items-center mb-5">
+              <p class="text-left text-xs max-w-[154px]">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud...”
+              </p>
+              <div class="w-[124px] h-[127px] bg-white rounded-xl">
+                <div class="flex justify-center">
+                  <img src="/retinol.svg" alt="" />
+                </div>
+                <p class="font-semibold text-center text-sm text-[#164d4d]">
+                  Retinol in squalane 0.2%
+                </p>
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div class="flex gap-2">
+                <img src="/merry.svg" alt="merry" width="31px" />
+                <div>
+                  <p class="text-sm font-semibold text-[#164d4d]">Mery</p>
+                  <p class="text-xs text-[#618686]">+14 upvotes</p>
+                </div>
+              </div>
+              <div class="flex gap-1">
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="bg-[#ebf4fa] h-[240px] w-[360px] rounded-3xl p-8">
+            <div class="flex justify-around gap-3 items-center mb-5">
+              <p class="text-left text-xs max-w-[154px]">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud...”
+              </p>
+              <div class="w-[124px] h-[127px] bg-white rounded-xl">
+                <div class="flex justify-center">
+                  <img src="/retinol.svg" alt="" />
+                </div>
+                <p class="font-semibold text-center text-sm text-[#164d4d]">
+                  Retinol in squalane 0.2%
+                </p>
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div class="flex gap-2">
+                <img src="/merry.svg" alt="merry" width="31px" />
+                <div>
+                  <p class="text-sm font-semibold text-[#164d4d]">Mery</p>
+                  <p class="text-xs text-[#618686]">+14 upvotes</p>
+                </div>
+              </div>
+              <div class="flex gap-1">
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="bg-[#ebf4fa] h-[240px] w-[360px] rounded-3xl p-8">
+            <div class="flex justify-around gap-3 items-center mb-5">
+              <p class="text-left text-xs max-w-[154px]">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud...”
+              </p>
+              <div class="w-[124px] h-[127px] bg-white rounded-xl">
+                <div class="flex justify-center">
+                  <img src="/retinol.svg" alt="" />
+                </div>
+                <p class="font-semibold text-center text-sm text-[#164d4d]">
+                  Retinol in squalane 0.2%
+                </p>
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div class="flex gap-2">
+                <img src="/merry.svg" alt="merry" width="31px" />
+                <div>
+                  <p class="text-sm font-semibold text-[#164d4d]">Mery</p>
+                  <p class="text-xs text-[#618686]">+14 upvotes</p>
+                </div>
+              </div>
+              <div class="flex gap-1">
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="bg-[#ebf4fa] h-[240px] w-[360px] rounded-3xl p-8">
+            <div class="flex justify-around gap-3 items-center mb-5">
+              <p class="text-left text-xs max-w-[154px]">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud...”
+              </p>
+              <div class="w-[124px] h-[127px] bg-white rounded-xl">
+                <div class="flex justify-center">
+                  <img src="/retinol.svg" alt="" />
+                </div>
+                <p class="font-semibold text-center text-sm text-[#164d4d]">
+                  Retinol in squalane 0.2%
+                </p>
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div class="flex gap-2">
+                <img src="/merry.svg" alt="merry" width="31px" />
+                <div>
+                  <p class="text-sm font-semibold text-[#164d4d]">Mery</p>
+                  <p class="text-xs text-[#618686]">+14 upvotes</p>
+                </div>
+              </div>
+              <div class="flex gap-1">
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="bg-[#ebf4fa] h-[240px] w-[360px] rounded-3xl p-8">
+            <div class="flex justify-around gap-3 items-center mb-5">
+              <p class="text-left text-xs max-w-[154px]">
+                “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud...”
+              </p>
+              <div class="w-[124px] h-[127px] bg-white rounded-xl">
+                <div class="flex justify-center">
+                  <img src="/retinol.svg" alt="" />
+                </div>
+                <p class="font-semibold text-center text-sm text-[#164d4d]">
+                  Retinol in squalane 0.2%
+                </p>
+              </div>
+            </div>
+            <div class="flex justify-between">
+              <div class="flex gap-2">
+                <img src="/merry.svg" alt="merry" width="31px" />
+                <div>
+                  <p class="text-sm font-semibold text-[#164d4d]">Mery</p>
+                  <p class="text-xs text-[#618686]">+14 upvotes</p>
+                </div>
+              </div>
+              <div class="flex gap-1">
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="flex justify-center items-center">
       <p class="text-[#fbf5e3] text-4xl font-poppins">
         Explore new products recommended by similar users
@@ -821,6 +1073,209 @@
       </div>
     </div>
 
+    <div class="flex justify-center items-center pb-16">
+      <div
+        class="carousel carousel-center p-4 space-x-4 bg-[#164d4d] rounded-box max-w-[1140px]"
+      >
+        <div class="carousel-item">
+          <div class="bg-white h-[295px] w-[264px] rounded-3xl p-5">
+            <div class="flex justify-end">
+              <div class="relative">
+                <div
+                  class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
+                >
+                  <img src="/like.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-center mb-1">
+              <img src="/retinol.svg" alt="retinol" width="105px" />
+            </div>
+            <div class="flex gap-1 justify-center mb-1">
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/halfYellowStar.svg" alt="star" width="10px" />
+              <p class="text-[#797878]">(5)</p>
+            </div>
+            <p class="font-semibold text-center text-[#164d4d] mb-1">
+              Retinol in squalane 0.2%
+            </p>
+            <p class="font-semibold text-center text-[#797878]">The ordinary</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="bg-white h-[295px] w-[264px] rounded-3xl p-5">
+            <div class="flex justify-end">
+              <div class="relative">
+                <div
+                  class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
+                >
+                  <img src="/like.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-center mb-1">
+              <img src="/retinol.svg" alt="retinol" width="105px" />
+            </div>
+            <div class="flex gap-1 justify-center mb-1">
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/halfYellowStar.svg" alt="star" width="10px" />
+              <p class="text-[#797878]">(5)</p>
+            </div>
+            <p class="font-semibold text-center text-[#164d4d] mb-1">
+              Retinol in squalane 0.2%
+            </p>
+            <p class="font-semibold text-center text-[#797878]">The ordinary</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="bg-white h-[295px] w-[264px] rounded-3xl p-5">
+            <div class="flex justify-end">
+              <div class="relative">
+                <div
+                  class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
+                >
+                  <img src="/like.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-center mb-1">
+              <img src="/retinol.svg" alt="retinol" width="105px" />
+            </div>
+            <div class="flex gap-1 justify-center mb-1">
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/halfYellowStar.svg" alt="star" width="10px" />
+              <p class="text-[#797878]">(5)</p>
+            </div>
+            <p class="font-semibold text-center text-[#164d4d] mb-1">
+              Retinol in squalane 0.2%
+            </p>
+            <p class="font-semibold text-center text-[#797878]">The ordinary</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="bg-white h-[295px] w-[264px] rounded-3xl p-5">
+            <div class="flex justify-end">
+              <div class="relative">
+                <div
+                  class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
+                >
+                  <img src="/like.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-center mb-1">
+              <img src="/retinol.svg" alt="retinol" width="105px" />
+            </div>
+            <div class="flex gap-1 justify-center mb-1">
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/halfYellowStar.svg" alt="star" width="10px" />
+              <p class="text-[#797878]">(5)</p>
+            </div>
+            <p class="font-semibold text-center text-[#164d4d] mb-1">
+              Retinol in squalane 0.2%
+            </p>
+            <p class="font-semibold text-center text-[#797878]">The ordinary</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="bg-white h-[295px] w-[264px] rounded-3xl p-5">
+            <div class="flex justify-end">
+              <div class="relative">
+                <div
+                  class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
+                >
+                  <img src="/like.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-center mb-1">
+              <img src="/retinol.svg" alt="retinol" width="105px" />
+            </div>
+            <div class="flex gap-1 justify-center mb-1">
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/halfYellowStar.svg" alt="star" width="10px" />
+              <p class="text-[#797878]">(5)</p>
+            </div>
+            <p class="font-semibold text-center text-[#164d4d] mb-1">
+              Retinol in squalane 0.2%
+            </p>
+            <p class="font-semibold text-center text-[#797878]">The ordinary</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="bg-white h-[295px] w-[264px] rounded-3xl p-5">
+            <div class="flex justify-end">
+              <div class="relative">
+                <div
+                  class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
+                >
+                  <img src="/like.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-center mb-1">
+              <img src="/retinol.svg" alt="retinol" width="105px" />
+            </div>
+            <div class="flex gap-1 justify-center mb-1">
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/halfYellowStar.svg" alt="star" width="10px" />
+              <p class="text-[#797878]">(5)</p>
+            </div>
+            <p class="font-semibold text-center text-[#164d4d] mb-1">
+              Retinol in squalane 0.2%
+            </p>
+            <p class="font-semibold text-center text-[#797878]">The ordinary</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="bg-white h-[295px] w-[264px] rounded-3xl p-5">
+            <div class="flex justify-end">
+              <div class="relative">
+                <div
+                  class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
+                >
+                  <img src="/like.svg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="flex justify-center mb-1">
+              <img src="/retinol.svg" alt="retinol" width="105px" />
+            </div>
+            <div class="flex gap-1 justify-center mb-1">
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/yellowStar.svg" alt="star" width="20px" />
+              <img src="/halfYellowStar.svg" alt="star" width="10px" />
+              <p class="text-[#797878]">(5)</p>
+            </div>
+            <p class="font-semibold text-center text-[#164d4d] mb-1">
+              Retinol in squalane 0.2%
+            </p>
+            <p class="font-semibold text-center text-[#797878]">The ordinary</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="flex justify-center items-center">
       <p class="text-[#fbf5e3] text-4xl font-poppins">Will you help out?</p>
     </div>
@@ -1135,6 +1590,195 @@
       </div>
     </div>
 
+    <div class="flex justify-center items-center pb-16">
+      <div
+        class="carousel carousel-center p-4 space-x-4 bg-[#164d4d] rounded-box max-w-[1140px]"
+      >
+        <div class="carousel-item">
+          <div class="bg-white h-[245px] w-[360px] rounded-3xl px-5 pb-5">
+            <img
+              :src="save1"
+              @click="changeSave1"
+              alt="save"
+              class="relative cursor-pointer ml-5 -top-1"
+            />
+            <div class="flex justify-center items-center mb-2">
+              <img src="/lighting.svg" alt="lighting" />
+              <img src="/brush.svg" alt="brush" />
+            </div>
+            <p class="text-center mb-5">
+              “I have a very formal event tomorrow and need help finding a long
+              stay red lipstick! I won’t have time to retouch it for hours and
+              don’t want to look messy in the picures. Can anyone help?”
+            </p>
+            <div class="flex justify-center">
+              <button
+                class="bg-[#164d4d] text-[#ffffff] rounded-xl text-sm px-2 py-1 font-bold"
+              >
+                RECOMMEND NOW
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="bg-white h-[245px] w-[360px] rounded-3xl px-5 pb-5">
+            <img
+              :src="save2"
+              @click="changeSave2"
+              alt="save"
+              class="relative cursor-pointer ml-5 -top-1"
+            />
+            <div class="flex justify-center items-center mb-2">
+              <img src="/lighting.svg" alt="lighting" />
+              <img src="/brush.svg" alt="brush" />
+            </div>
+            <p class="text-center mb-5">
+              “I have a very formal event tomorrow and need help finding a long
+              stay red lipstick! I won’t have time to retouch it for hours and
+              don’t want to look messy in the picures. Can anyone help?”
+            </p>
+            <div class="flex justify-center">
+              <button
+                class="bg-[#164d4d] text-[#ffffff] rounded-xl text-sm px-2 py-1 font-bold"
+              >
+                RECOMMEND NOW
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="bg-white h-[245px] w-[360px] rounded-3xl px-5 pb-5">
+            <img
+              :src="save3"
+              @click="changeSave3"
+              alt="save"
+              class="relative cursor-pointer ml-5 -top-1"
+            />
+            <div class="flex justify-center items-center mb-2">
+              <img src="/lighting.svg" alt="lighting" />
+              <img src="/brush.svg" alt="brush" />
+            </div>
+            <p class="text-center mb-5">
+              “I have a very formal event tomorrow and need help finding a long
+              stay red lipstick! I won’t have time to retouch it for hours and
+              don’t want to look messy in the picures. Can anyone help?”
+            </p>
+            <div class="flex justify-center">
+              <button
+                class="bg-[#164d4d] text-[#ffffff] rounded-xl text-sm px-2 py-1 font-bold"
+              >
+                RECOMMEND NOW
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="bg-white h-[245px] w-[360px] rounded-3xl px-5 pb-5">
+            <img
+              :src="save4"
+              @click="changeSave4"
+              alt="save"
+              class="relative cursor-pointer ml-5 -top-1"
+            />
+            <div class="flex justify-center items-center mb-2">
+              <img src="/lighting.svg" alt="lighting" />
+              <img src="/brush.svg" alt="brush" />
+            </div>
+            <p class="text-center mb-5">
+              “I have a very formal event tomorrow and need help finding a long
+              stay red lipstick! I won’t have time to retouch it for hours and
+              don’t want to look messy in the picures. Can anyone help?”
+            </p>
+            <div class="flex justify-center">
+              <button
+                class="bg-[#164d4d] text-[#ffffff] rounded-xl text-sm px-2 py-1 font-bold"
+              >
+                RECOMMEND NOW
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="bg-white h-[245px] w-[360px] rounded-3xl px-5 pb-5">
+            <img
+              :src="save5"
+              @click="changeSave5"
+              alt="save"
+              class="relative cursor-pointer ml-5 -top-1"
+            />
+            <div class="flex justify-center items-center mb-2">
+              <img src="/lighting.svg" alt="lighting" />
+              <img src="/brush.svg" alt="brush" />
+            </div>
+            <p class="text-center mb-5">
+              “I have a very formal event tomorrow and need help finding a long
+              stay red lipstick! I won’t have time to retouch it for hours and
+              don’t want to look messy in the picures. Can anyone help?”
+            </p>
+            <div class="flex justify-center">
+              <button
+                class="bg-[#164d4d] text-[#ffffff] rounded-xl text-sm px-2 py-1 font-bold"
+              >
+                RECOMMEND NOW
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="bg-white h-[245px] w-[360px] rounded-3xl px-5 pb-5">
+            <img
+              :src="save6"
+              @click="changeSave6"
+              alt="save"
+              class="relative cursor-pointer ml-5 -top-1"
+            />
+            <div class="flex justify-center items-center mb-2">
+              <img src="/lighting.svg" alt="lighting" />
+              <img src="/brush.svg" alt="brush" />
+            </div>
+            <p class="text-center mb-5">
+              “I have a very formal event tomorrow and need help finding a long
+              stay red lipstick! I won’t have time to retouch it for hours and
+              don’t want to look messy in the picures. Can anyone help?”
+            </p>
+            <div class="flex justify-center">
+              <button
+                class="bg-[#164d4d] text-[#ffffff] rounded-xl text-sm px-2 py-1 font-bold"
+              >
+                RECOMMEND NOW
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="bg-white h-[245px] w-[360px] rounded-3xl px-5 pb-5">
+            <img
+              :src="save7"
+              @click="changeSave7"
+              alt="save"
+              class="relative cursor-pointer ml-5 -top-1"
+            />
+            <div class="flex justify-center items-center mb-2">
+              <img src="/lighting.svg" alt="lighting" />
+              <img src="/brush.svg" alt="brush" />
+            </div>
+            <p class="text-center mb-5">
+              “I have a very formal event tomorrow and need help finding a long
+              stay red lipstick! I won’t have time to retouch it for hours and
+              don’t want to look messy in the picures. Can anyone help?”
+            </p>
+            <div class="flex justify-center">
+              <button
+                class="bg-[#164d4d] text-[#ffffff] rounded-xl text-sm px-2 py-1 font-bold"
+              >
+                RECOMMEND NOW
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <div class="flex justify-center items-center mb-5">
       <button
         class="bg-[#fbf5e3] rounded-lg px-6 py-2 text-[#164d4d] font-bold"
@@ -1142,6 +1786,7 @@
         REQUEST RECOMENDATION
       </button>
     </div>
+
     <div class="flex justify-center items-center mb-16">
       <p class="text-[#fbf5e3] text-4xl font-poppins">
         Explore products based on the problem to solve
