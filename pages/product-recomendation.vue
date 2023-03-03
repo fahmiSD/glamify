@@ -631,7 +631,7 @@
                                               <textarea
                                                 name=""
                                                 id=""
-                                                class="w-[360px] h-[105px] rounded-2xl border border-[#e6e6e6] bg-[#f9f9f9] focus:ring-[#207a7a] focus:border-[#207a7a]"
+                                                class="w-[360px] h-[105px] rounded-2xl border border-[#e6e6e6] bg-[#f9f9f9] focus:ring-[#207a7a] focus:border-[#207a7a] placeholder:p-3 p-3"
                                                 :value="inputYourRecommendation"
                                               ></textarea>
                                             </div>
@@ -644,7 +644,7 @@
                                               <textarea
                                                 name=""
                                                 id=""
-                                                class="w-[360px] h-[105px] rounded-2xl border border-[#e6e6e6] bg-[#f9f9f9] focus:ring-[#207a7a] focus:border-[#207a7a]"
+                                                class="w-[360px] h-[105px] rounded-2xl border border-[#e6e6e6] bg-[#f9f9f9] focus:ring-[#207a7a] focus:border-[#207a7a] placeholder:p-3 p-3"
                                               ></textarea>
                                             </div>
                                             <div
@@ -736,14 +736,16 @@
                     Post your question
                   </p>
                   <form action="">
-                    <textarea
-                      name=""
-                      id=""
-                      cols="28"
-                      rows="6"
-                      placeholder="Write your question (eg. Does anyone know a good moisturizer that has a matte finish? My skin tends to get too shiny in the summer”)"
-                      class="rounded-2xl border border-[#e6e6e6] bg-[#f9f9f9] focus:ring-[#207a7a] focus:border-[#207a7a] placeholder:text-center placeholder:p-3 placeholder:text-sm placeholder:font-light mb-5"
-                    ></textarea>
+                    <div class="flex justify-center">
+                      <textarea
+                        name=""
+                        id=""
+                        cols="26"
+                        rows="6"
+                        placeholder="Write your question (eg. Does anyone know a good moisturizer that has a matte finish? My skin tends to get too shiny in the summer”)"
+                        class="rounded-2xl border border-[#e6e6e6] bg-[#f9f9f9] focus:ring-[#207a7a] focus:border-[#207a7a] placeholder:text-center placeholder:p-3 placeholder:text-sm placeholder:font-light mb-5 p-3 font-light text-sm"
+                      ></textarea>
+                    </div>
                     <div class="flex justify-center gap-3">
                       <button
                         class="text-white bg-[#618686] px-2 py-1.5 rounded-lg"

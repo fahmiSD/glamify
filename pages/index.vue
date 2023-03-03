@@ -1074,7 +1074,7 @@
 
     <div class="flex justify-center items-center pb-16">
       <div
-        class="carousel carousel-center p-4 space-x-4 bg-[#164d4d] rounded-box max-w-[1140px]"
+        class="carousel carousel-center p-4 space-x-4 bg-[#164d4d] rounded-box max-w-[1120px]"
       >
         <div class="carousel-item">
           <div class="bg-white h-[295px] w-[264px] rounded-3xl p-5">
