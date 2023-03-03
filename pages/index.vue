@@ -1,6 +1,6 @@
 <template>
   <div class="pt-16">
-    <div class="flex justify-center">
+    <div class="flex justify-center mb-10">
       <p
         class="text-[#fbf5e3] font-bold text-6xl text-center tracking-wide leading-tight font-poppins"
       >
@@ -8,11 +8,10 @@
       </p>
     </div>
 
-    <div class="px-20">
+    <!-- <div class="px-20">
       <div id="controls-carousel" class="relative" data-carousel="static">
-        <!-- Carousel wrapper -->
         <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-          <!-- Item 1 -->
+          
           <div class="hidden duration-500 py-16 ease-in-out" data-carousel-item>
             <div
               class="place-content-center grid grid-cols-3 px-20 place-items-center"
@@ -118,7 +117,7 @@
               </div>
             </div>
           </div>
-          <!-- Item 2 -->
+          
           <div
             class="hidden duration-500 py-16 ease-in-out"
             data-carousel-item="active"
@@ -227,7 +226,7 @@
               </div>
             </div>
           </div>
-          <!-- Item 3 -->
+         
           <div class="hidden duration-500 py-16 ease-in-out" data-carousel-item>
             <div
               class="grid grid-cols-3 px-20 place-content-center place-items-center"
@@ -334,7 +333,7 @@
             </div>
           </div>
         </div>
-        <!-- Slider controls -->
+        
         <button
           type="button"
           class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
@@ -388,7 +387,7 @@
           </span>
         </button>
       </div>
-    </div>
+    </div> -->
 
     <div class="flex justify-center items-center pb-16">
       <div
@@ -642,17 +641,17 @@
       </div>
     </div>
 
-    <div class="flex justify-center items-center">
+    <div class="flex justify-center items-center mb-10">
       <p class="text-[#fbf5e3] text-4xl font-poppins">
         Explore new products recommended by similar users
       </p>
     </div>
 
-    <div class="px-20">
+    <!-- <div class="px-20">
       <div id="controls-carousel" class="relative" data-carousel="static">
-        <!-- Carousel wrapper -->
+        
         <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-          <!-- Item 1 -->
+          
           <div class="hidden duration-500 py-14 ease-in-out" data-carousel-item>
             <div
               class="grid grid-cols-4 place-content-center px-20 place-items-center"
@@ -771,7 +770,7 @@
               </div>
             </div>
           </div>
-          <!-- Item 2 -->
+          
           <div
             class="hidden duration-500 py-14 ease-in-out"
             data-carousel-item="active"
@@ -897,7 +896,7 @@
               </div>
             </div>
           </div>
-          <!-- Item 3 -->
+          
           <div class="hidden duration-500 py-14 ease-in-out" data-carousel-item>
             <div
               class="grid grid-cols-4 px-20 place-content-center place-items-center"
@@ -1017,7 +1016,7 @@
             </div>
           </div>
         </div>
-        <!-- Slider controls -->
+        
         <button
           type="button"
           class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
@@ -1071,7 +1070,7 @@
           </span>
         </button>
       </div>
-    </div>
+    </div> -->
 
     <div class="flex justify-center items-center pb-16">
       <div
@@ -1276,15 +1275,15 @@
       </div>
     </div>
 
-    <div class="flex justify-center items-center">
+    <div class="flex justify-center items-center mb-10">
       <p class="text-[#fbf5e3] text-4xl font-poppins">Will you help out?</p>
     </div>
 
-    <div class="px-20">
+    <!-- <div class="px-20">
       <div id="controls-carousel" class="relative" data-carousel="static">
-        <!-- Carousel wrapper -->
+        
         <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
-          <!-- Item 1 -->
+          
           <div class="hidden duration-500 py-16 ease-in-out" data-carousel-item>
             <div
               class="grid grid-cols-3 place-content-center px-20 place-items-center"
@@ -1366,7 +1365,7 @@
               </div>
             </div>
           </div>
-          <!-- Item 2 -->
+         
           <div
             class="hidden duration-500 py-16 ease-in-out"
             data-carousel-item="active"
@@ -1451,7 +1450,7 @@
               </div>
             </div>
           </div>
-          <!-- Item 3 -->
+          
           <div class="hidden duration-500 py-16 ease-in-out" data-carousel-item>
             <div
               class="grid grid-cols-3 px-20 place-content-center place-items-center"
@@ -1534,7 +1533,7 @@
             </div>
           </div>
         </div>
-        <!-- Slider controls -->
+        
         <button
           type="button"
           class="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
@@ -1588,7 +1587,7 @@
           </span>
         </button>
       </div>
-    </div>
+    </div> -->
 
     <div class="flex justify-center items-center pb-16">
       <div
