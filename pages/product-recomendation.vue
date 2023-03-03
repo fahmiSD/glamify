@@ -917,11 +917,13 @@
                                           help?”
                                         </p>
                                         <div class="flex justify-center py-3">
-                                          <button
-                                            class="text-white bg-[#164d4d] px-5 py-1 rounded-lg"
-                                          >
-                                            POST
-                                          </button>
+                                          <NuxtLink to="/waiting">
+                                            <button
+                                              class="text-white bg-[#164d4d] px-5 py-1 rounded-lg"
+                                            >
+                                              POST
+                                            </button>
+                                          </NuxtLink>
                                         </div>
                                       </div>
                                     </div>
