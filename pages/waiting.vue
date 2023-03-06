@@ -1,13 +1,13 @@
 <template>
-  <div class="py-16 px-32 h-screen">
-    <div class="grid grid-cols-12 gap-4">
-      <div class="col-span-4">
-        <div class="bg-white h-[245px] w-full rounded-3xl p-5 mb-4">
+  <div class="md:py-16 md:px-32 px-3 py-6 h-screen">
+    <div class="md:grid md:grid-cols-12 gap-4">
+      <div class="md:col-span-4">
+        <div class="bg-white h-[245px] w-full rounded-3xl px-5 pb-5 mb-5">
           <img
             :src="save1"
             @click="changeSave1"
             alt="save"
-            class="absolute top-[140px] left-40 cursor-pointer"
+            class="relative cursor-pointer ml-5 -top-1"
           />
           <div class="flex justify-center items-center mb-2">
             <img src="/lighting.svg" alt="lighting" />
@@ -26,7 +26,7 @@
             </button>
           </div>
         </div>
-        <div class="bg-white w-full h-[72px] rounded-3xl p-3">
+        <div class="bg-white w-full h-[72px] rounded-3xl p-3 mb-5">
           <p class="text-[#164d4d] text-center font-inter font-semibold">
             Category
           </p>
@@ -35,7 +35,7 @@
           </p>
         </div>
       </div>
-      <div class="col-span-8 flex justify-center items-center">
+      <div class="md:col-span-8 flex justify-center items-center">
         <div class="flex flex-col items-center gap-10">
           <p class="font-light text-[#fbf5e3] text-lg">Patience is a virtue!</p>
           <img src="/hourGlass.svg" alt="" class="72px" />
