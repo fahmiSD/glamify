@@ -1,13 +1,13 @@
 <template>
-  <div class="py-16 px-32 h-screen">
-    <div class="grid grid-cols-12 gap-4">
-      <div class="col-span-4">
-        <div class="bg-white h-[245px] w-full rounded-3xl p-5 mb-4">
+  <div class="md:py-16 py-5 md:px-32 max-h-[20000px]">
+    <div class="grid md:grid-cols-12 gap-4">
+      <div class="md:col-span-4 px-3 md:px-0">
+        <div class="bg-white h-[245px] w-full rounded-3xl px-5 pb-5 mb-4">
           <img
             :src="save1"
             @click="changeSave1"
             alt="save"
-            class="absolute top-[140px] left-40 cursor-pointer"
+            class="relative cursor-pointer ml-5 -top-1"
           />
           <div class="flex justify-center items-center mb-2">
             <img src="/lighting.svg" alt="lighting" />
@@ -35,8 +35,8 @@
           </p>
         </div>
       </div>
-      <div class="col-span-8">
-        <div class="grid grid-cols-2 gap-4 mb-5">
+      <div class="md:col-span-8 px-3">
+        <div class="grid md:grid-cols-2 gap-4 mb-5">
           <div class="bg-[#ebf4fa] h-[245px] w-full rounded-3xl p-8">
             <div class="flex justify-around gap-3 items-center mb-5">
               <p class="text-left text-xs max-w-[154px]">
@@ -182,13 +182,15 @@
         <!-- Put this part before </body> tag -->
         <input type="checkbox" id="recommendModal" class="modal-toggle" />
         <div class="modal">
-          <div class="modal-box relative bg-white w-[550px] h-[486px]">
+          <div
+            class="modal-box relative bg-white w-[550px] md:h-[486px] h-[800px]"
+          >
             <label for="recommendModal" class="absolute right-4 top-4"
               ><img src="/xModal.svg" alt=""
             /></label>
             <div class="">
-              <div class="grid grid-cols-7 gap-3">
-                <div class="col-span-3 mt-3">
+              <div class="grid md:grid-cols-7 gap-3">
+                <div class="md:col-span-3 mt-3 flex flex-col items-center">
                   <div class="flex justify-start mb-3">
                     <img src="/iModal.svg" alt="" />
                     <p
@@ -215,7 +217,7 @@
                     3. Review and post
                   </p>
                 </div>
-                <div class="col-span-4 p-2">
+                <div class="md:col-span-4 p-2">
                   <h2 class="text-center font-bold text-[#164d4d] mb-5">
                     Have a Recommendation?
                   </h2>
@@ -251,14 +253,16 @@
                     />
                     <div class="modal">
                       <div
-                        class="modal-box relative bg-white w-[550px] h-[486px]"
+                        class="modal-box relative bg-white w-[550px] md:h-[486px] h-[800px]"
                       >
                         <label for="newProduct" class="absolute right-4 top-4"
                           ><img src="/xModal.svg" alt=""
                         /></label>
-                        <div class="grid grid-cols-7 gap-5">
-                          <div class="col-span-3">
-                            <div class="flex justify-center gap-5 mb-3">
+                        <div class="md:grid md:grid-cols-7 md:gap-5">
+                          <div class="md:col-span-3">
+                            <div
+                              class="flex justify-center gap-5 mb-3 mt-5 md:mt-0"
+                            >
                               <img src="/iModal.svg" alt="" />
                               <p class="text-[#618686] font-semibold text-sm">
                                 How to add a new product
@@ -291,7 +295,7 @@
                               once it’s approved
                             </p>
                           </div>
-                          <div class="col-span-4 p-2">
+                          <div class="md:col-span-4 p-2">
                             <h2
                               class="text-center mb-5 text-[#164d4d] font-bold"
                             >
@@ -328,15 +332,17 @@
                                 />
                                 <div class="modal">
                                   <div
-                                    class="modal-box relative bg-white w-[550px] h-[486px]"
+                                    class="modal-box relative bg-white w-[550px] md:h-[486px] h-[800px]"
                                   >
                                     <label
                                       for="nextAddProduct"
                                       class="absolute right-4 top-4"
                                       ><img src="/xModal.svg" alt=""
                                     /></label>
-                                    <div class="grid grid-cols-7 gap-5 pt-3">
-                                      <div class="col-span-3">
+                                    <div
+                                      class="md:grid md:grid-cols-7 md:gap-5 pt-3"
+                                    >
+                                      <div class="md:col-span-3">
                                         <div
                                           class="flex justify-center gap-5 mb-3"
                                         >
@@ -389,7 +395,7 @@
                                           class="w-full rounded-full border border-[#e6e6e6] bg-[#f9f9f9] placeholder:text-center placeholder:text-md placeholder:font-light placeholder:text-[#797878] placeholder:text-sm mb-6 focus:ring-[#207a7a] focus:border-[#207a7a]"
                                         />
                                       </div>
-                                      <div class="col-span-4">
+                                      <div class="md:col-span-4">
                                         <div
                                           class="rating rating-lg flex justify-center gap-2 pb-3"
                                         >
@@ -420,26 +426,30 @@
                                           />
                                         </div>
                                         <form action="">
-                                          <textarea
-                                            name=""
-                                            v-model="input1"
-                                            @input="checkFilled"
-                                            id=""
-                                            cols="25"
-                                            rows="5"
-                                            class="rounded-3xl border-2 border-[#e6e6e6] bg-[#f9f9f9] focus:outline-none ring-inset focus:ring focus:ring-[#207a7a] focus:border-[#207a7a] placeholder:text-center placeholder:font-light text-center p-3"
-                                            placeholder="Describe your experience with the product... Did you like it? Do you have any tips on how to make the most out of the product?..."
-                                          ></textarea>
-                                          <textarea
-                                            name=""
-                                            v-model="input2"
-                                            @input="checkFilled"
-                                            id=""
-                                            cols="25"
-                                            rows="5"
-                                            class="rounded-3xl border-2 border-[#e6e6e6] bg-[#f9f9f9] focus:outline-none ring-inset focus:ring focus:ring-[#207a7a] focus:border-[#207a7a] placeholder:text-center placeholder:font-light text-center p-3"
-                                            placeholder="Purpose of using the product: eg. antiaging, spots, imperfections..."
-                                          ></textarea>
+                                          <div class="flex justify-center mb-5">
+                                            <textarea
+                                              name=""
+                                              v-model="input1"
+                                              @input="checkFilled"
+                                              id=""
+                                              cols="25"
+                                              rows="5"
+                                              class="rounded-3xl border-2 border-[#e6e6e6] bg-[#f9f9f9] focus:outline-none ring-inset focus:ring focus:ring-[#207a7a] focus:border-[#207a7a] placeholder:text-center placeholder:font-light text-center p-3"
+                                              placeholder="Describe your experience with the product... Did you like it? Do you have any tips on how to make the most out of the product?..."
+                                            ></textarea>
+                                          </div>
+                                          <div class="flex justify-center mb-5">
+                                            <textarea
+                                              name=""
+                                              v-model="input2"
+                                              @input="checkFilled"
+                                              id=""
+                                              cols="25"
+                                              rows="5"
+                                              class="rounded-3xl border-2 border-[#e6e6e6] bg-[#f9f9f9] focus:outline-none ring-inset focus:ring focus:ring-[#207a7a] focus:border-[#207a7a] placeholder:text-center placeholder:font-light text-center p-3"
+                                              placeholder="Purpose of using the product: eg. antiaging, spots, imperfections..."
+                                            ></textarea>
+                                          </div>
                                           <div class="flex justify-center">
                                             <!-- The button to open modal -->
                                             <label
@@ -456,7 +466,7 @@
                                             />
                                             <div class="modal">
                                               <div
-                                                class="modal-box relative bg-white w-[550px] h-[486px] flex justify-center items-center"
+                                                class="modal-box relative bg-white w-[550px] md:h-[486px] h-[800px] flex justify-center items-center"
                                               >
                                                 <label
                                                   for="requestSubmitted"
@@ -515,16 +525,18 @@
                     </div>
                     <!-- Put this part before </body> tag -->
                     <input type="checkbox" id="next" class="modal-toggle" />
-                    <div class="modal w-full">
+                    <div class="modal">
                       <div
-                        class="modal-box relative bg-white w-[550px] h-[486px]"
+                        class="modal-box relative bg-white w-[550px] md:h-[486px] h-[800px]"
                       >
                         <label for="next" class="absolute right-4 top-4"
                           ><img src="/xModal.svg" alt=""
                         /></label>
                         <div class="">
-                          <div class="grid grid-cols-7 gap-5">
-                            <div class="col-span-3 mt-3">
+                          <div class="md:grid md:grid-cols-7 md:gap-5">
+                            <div
+                              class="md:col-span-3 md:mt-3 flex flex-col items-center"
+                            >
                               <div class="flex justify-start mb-3">
                                 <img src="/iModal.svg" alt="" />
                                 <p
@@ -551,7 +563,7 @@
                               >
                                 3. Review and post
                               </p>
-                              <div class="mt-12">
+                              <div class="md:mt-12">
                                 <div class="flex justify-center">
                                   <img src="/retinol.svg" alt="" />
                                 </div>
@@ -563,7 +575,7 @@
                                 </p>
                               </div>
                             </div>
-                            <div class="col-span-4 mt-3">
+                            <div class="md:col-span-4 md:mt-3">
                               <h2
                                 class="text-center font-bold text-[#164d4d] mb-2"
                               >
@@ -611,9 +623,9 @@
                                       id="spellCheck"
                                       class="modal-toggle"
                                     />
-                                    <div class="modal">
+                                    <div class="modal h-screen">
                                       <div
-                                        class="modal-box bg-white h-[486px] w-[550px] flex justify-center items-center relative"
+                                        class="modal-box bg-white md:h-[486px] h-[800px] w-[550px] flex justify-center items-center relative max-h-screen"
                                       >
                                         <label
                                           for="spellCheck"
@@ -701,12 +713,14 @@
             class="modal-toggle"
           />
           <div class="modal">
-            <div class="modal-box relative bg-white w-[550px] h-[486px]">
+            <div
+              class="modal-box relative bg-white w-[550px] md:h-[486px] h-[800px]"
+            >
               <label for="recommendationRequest" class="absolute right-4 top-4"
                 ><img src="/xModal.svg" alt=""
               /></label>
-              <div class="grid grid-cols-7 gap-5 pt-3">
-                <div class="col-span-3">
+              <div class="md:grid md:grid-cols-7 md:gap-5 pt-3">
+                <div class="md:col-span-3 flex flex-col items-center">
                   <div class="flex justify-start mb-3 gap-3">
                     <img src="/iModal.svg" alt="" />
                     <p
@@ -731,7 +745,7 @@
                     3. Post!
                   </p>
                 </div>
-                <div class="col-span-4">
+                <div class="md:col-span-4">
                   <p class="text-center text-[#164d4d] font-bold mb-3">
                     Post your question
                   </p>
@@ -767,15 +781,15 @@
                       />
                       <div class="modal">
                         <div
-                          class="modal-box relative bg-white w-[550px] h-[486px]"
+                          class="modal-box relative bg-white w-[550px] md:h-[486px] h-[800px]"
                         >
                           <label
                             for="moreInformation"
                             class="absolute right-4 top-4"
                             ><img src="/xModal.svg" alt=""
                           /></label>
-                          <div class="grid grid-cols-7 gap-5 pt-3">
-                            <div class="col-span-3">
+                          <div class="md:grid md:grid-cols-7 md:gap-5 pt-3">
+                            <div class="col-span-3 flex flex-col items-center">
                               <div class="flex justify-start mb-3 gap-3">
                                 <img src="/iModal.svg" alt="" />
                                 <p
@@ -809,38 +823,50 @@
                                 Add some more information
                               </p>
                               <form action="">
-                                <select
-                                  class="bg-[#f9f9f9] border border-[#e6e6e6] rounded-3xl h-[39px] w-full max-w-[249px] mb-5"
-                                >
-                                  <option class="text-center" disabled selected>
-                                    Select Your Category
-                                  </option>
-                                  <option class="text-center">
-                                    Normal Apple
-                                  </option>
-                                  <option class="text-center">
-                                    Normal Orange
-                                  </option>
-                                  <option class="text-center">
-                                    Normal Tomato
-                                  </option>
-                                </select>
-                                <select
-                                  class="bg-[#f9f9f9] border border-[#e6e6e6] rounded-3xl h-[39px] w-full max-w-[249px] mb-5"
-                                >
-                                  <option class="text-center" disabled selected>
-                                    Target Area
-                                  </option>
-                                  <option class="text-center">
-                                    Normal Apple
-                                  </option>
-                                  <option class="text-center">
-                                    Normal Orange
-                                  </option>
-                                  <option class="text-center">
-                                    Normal Tomato
-                                  </option>
-                                </select>
+                                <div class="flex justify-center">
+                                  <select
+                                    class="bg-[#f9f9f9] border border-[#e6e6e6] rounded-3xl h-[39px] w-full max-w-[249px] mb-5"
+                                  >
+                                    <option
+                                      class="text-center"
+                                      disabled
+                                      selected
+                                    >
+                                      Select Your Category
+                                    </option>
+                                    <option class="text-center">
+                                      Normal Apple
+                                    </option>
+                                    <option class="text-center">
+                                      Normal Orange
+                                    </option>
+                                    <option class="text-center">
+                                      Normal Tomato
+                                    </option>
+                                  </select>
+                                </div>
+                                <div class="flex justify-center">
+                                  <select
+                                    class="bg-[#f9f9f9] border border-[#e6e6e6] rounded-3xl h-[39px] w-full max-w-[249px] mb-5"
+                                  >
+                                    <option
+                                      class="text-center"
+                                      disabled
+                                      selected
+                                    >
+                                      Target Area
+                                    </option>
+                                    <option class="text-center">
+                                      Normal Apple
+                                    </option>
+                                    <option class="text-center">
+                                      Normal Orange
+                                    </option>
+                                    <option class="text-center">
+                                      Normal Tomato
+                                    </option>
+                                  </select>
+                                </div>
                                 <div class="flex justify-center">
                                   <label
                                     for="doubleCheck"
@@ -856,15 +882,19 @@
                                 />
                                 <div class="modal">
                                   <div
-                                    class="modal-box relative bg-white w-[550px] h-[486px]"
+                                    class="modal-box relative bg-white w-[550px] md:h-[486px] h-[800px]"
                                   >
                                     <label
                                       for="doubleCheck"
                                       class="absolute right-4 top-4"
                                       ><img src="/xModal.svg" alt=""
                                     /></label>
-                                    <div class="grid grid-cols-7 gap-5 pt-3">
-                                      <div class="col-span-3">
+                                    <div
+                                      class="md:grid md:grid-cols-7 md:gap-5 pt-3"
+                                    >
+                                      <div
+                                        class="md:col-span-3 flex flex-col items-center"
+                                      >
                                         <div
                                           class="flex justify-start mb-3 gap-3"
                                         >
@@ -908,16 +938,18 @@
                                           />
                                           <img src="/brush.svg" alt="brush" />
                                         </div>
-                                        <p
-                                          class="text-center max-w-[270px] text-sm font-light text-black italic"
-                                        >
-                                          “I have a very formal event tomorrow
-                                          and need help finding a long stay red
-                                          lipstick! I won’t have time to retouch
-                                          it for hours and don’t want to look
-                                          messy in the picures. Can anyone
-                                          help?”
-                                        </p>
+                                        <div class="flex justify-center">
+                                          <p
+                                            class="text-center max-w-[270px] text-sm font-light text-black italic"
+                                          >
+                                            “I have a very formal event tomorrow
+                                            and need help finding a long stay
+                                            red lipstick! I won’t have time to
+                                            retouch it for hours and don’t want
+                                            to look messy in the picures. Can
+                                            anyone help?”
+                                          </p>
+                                        </div>
                                         <div class="flex justify-center py-3">
                                           <NuxtLink to="/waiting">
                                             <button

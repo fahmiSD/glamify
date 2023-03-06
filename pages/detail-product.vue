@@ -1,7 +1,7 @@
 <template>
-  <div class="py-16 px-32">
-    <div class="grid grid-cols-12 gap-8">
-      <div class="col-span-4">
+  <div class="md:py-16 py-8 md:px-32">
+    <div class="md:grid md:grid-cols-12 md:gap-8">
+      <div class="md:col-span-4 px-3">
         <div class="bg-white h-[256px] w-full rounded-3xl p-5 mb-8 group">
           <div class="flex justify-end">
             <div class="absolute">
@@ -24,12 +24,12 @@
               <!-- Put this part before </body> tag -->
               <input type="checkbox" id="my-modal-3" class="modal-toggle" />
               <div class="modal">
-                <div class="modal-box relative bg-white w-[550px] h-[486px]">
+                <div class="modal-box relative bg-white w-[550px] md:h-[486px]">
                   <label for="my-modal-3" class="absolute right-4 top-4"
                     ><img src="/xModal.svg" alt=""
                   /></label>
-                  <div class="grid grid-cols-7 gap-3 pt-3">
-                    <div class="col-span-3">
+                  <div class="md:grid md:grid-cols-7 gap-3 pt-3">
+                    <div class="md:col-span-3">
                       <div class="flex justify-center mb-3">
                         <img src="/retinol.svg" alt="" width="104px" />
                       </div>
@@ -68,7 +68,7 @@
                         3. List the purpose or intent when using the product
                       </p>
                     </div>
-                    <div class="col-span-4 p-2">
+                    <div class="md:col-span-4 p-2">
                       <div
                         class="rating rating-lg flex justify-center gap-2 pb-3"
                       >
@@ -99,26 +99,30 @@
                         />
                       </div>
                       <form action="">
-                        <textarea
-                          name=""
-                          v-model="input1"
-                          @input="checkFilled"
-                          id=""
-                          cols="25"
-                          rows="6"
-                          class="rounded-3xl border-2 border-[#e6e6e6] bg-[#f9f9f9] focus:outline-none ring-inset focus:ring focus:ring-[#207a7a] focus:border-[#207a7a] placeholder:text-center placeholder:font-light text-center p-3"
-                          placeholder="Describe your experience with the product... Did you like it? Do you have any tips on how to make the most out of the product?..."
-                        ></textarea>
-                        <textarea
-                          name=""
-                          v-model="input2"
-                          @input="checkFilled"
-                          id=""
-                          cols="25"
-                          rows="4"
-                          class="rounded-3xl border-2 border-[#e6e6e6] bg-[#f9f9f9] focus:outline-none ring-inset focus:ring focus:ring-[#207a7a] focus:border-[#207a7a] placeholder:text-center placeholder:font-light text-center p-3"
-                          placeholder="Purpose of using the product: eg. antiaging, spots, imperfections..."
-                        ></textarea>
+                        <div class="flex justify-center mb-3">
+                          <textarea
+                            name=""
+                            v-model="input1"
+                            @input="checkFilled"
+                            id=""
+                            cols="25"
+                            rows="6"
+                            class="rounded-3xl border-2 border-[#e6e6e6] bg-[#f9f9f9] focus:outline-none ring-inset focus:ring focus:ring-[#207a7a] focus:border-[#207a7a] placeholder:text-center placeholder:font-light text-center p-3"
+                            placeholder="Describe your experience with the product... Did you like it? Do you have any tips on how to make the most out of the product?..."
+                          ></textarea>
+                        </div>
+                        <div class="flex justify-center mb-3">
+                          <textarea
+                            name=""
+                            v-model="input2"
+                            @input="checkFilled"
+                            id=""
+                            cols="25"
+                            rows="4"
+                            class="rounded-3xl border-2 border-[#e6e6e6] bg-[#f9f9f9] focus:outline-none ring-inset focus:ring focus:ring-[#207a7a] focus:border-[#207a7a] placeholder:text-center placeholder:font-light text-center p-3"
+                            placeholder="Purpose of using the product: eg. antiaging, spots, imperfections..."
+                          ></textarea>
+                        </div>
                         <div class="flex justify-center">
                           <button :class="buttonClass">PUBLISH</button>
                         </div>
@@ -185,8 +189,8 @@
           </p>
         </div>
       </div>
-      <div class="col-span-8">
-        <div class="bg-white w-full h-[143px] rounded-xl mb-8 p-3">
+      <div class="md:col-span-8 px-3">
+        <div class="bg-white w-full md:h-[143px] rounded-xl mb-8 p-3">
           <p class="text-[#164d4d] text-center font-inter font-semibold">
             Top review
           </p>
@@ -220,7 +224,7 @@
             </div>
           </div>
         </div>
-        <div class="grid grid-cols-2 gap-8 mb-5">
+        <div class="grid md:grid-cols-2 gap-8 mb-5">
           <div class="bg-white w-full h-[153px] rounded-xl p-5">
             <p class="text-xs font-poppins text-center text-[#737373] mb-8">
               “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -356,7 +360,7 @@
         <div class="flex justify-center mb-8">
           <p class="text-[#fbf5e3] font-poppins text-xl">Featured in</p>
         </div>
-        <div class="grid grid-cols-2 gap-8">
+        <div class="md:grid md:grid-cols-2 md:gap-8">
           <div class="bg-white h-[245px] w-full rounded-3xl p-5 mb-4">
             <div class="flex justify-center items-center mb-2">
               <img src="/lighting.svg" alt="lighting" />
@@ -371,7 +375,7 @@
               <button
                 class="bg-[#164d4d] text-[#ffffff] rounded-xl text-sm px-2 py-1 font-bold"
               >
-                RECOMMEND NOW
+                View
               </button>
             </div>
           </div>
@@ -389,7 +393,7 @@
               <button
                 class="bg-[#164d4d] text-[#ffffff] rounded-xl text-sm px-2 py-1 font-bold"
               >
-                RECOMMEND NOW
+                View
               </button>
             </div>
           </div>

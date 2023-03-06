@@ -2,9 +2,9 @@
   <div class="pt-16">
     <div class="flex justify-center mb-10">
       <p
-        class="text-[#fbf5e3] font-bold text-6xl text-center tracking-wide leading-tight font-poppins"
+        class="text-[#fbf5e3] font-bold md:text-6xl text-4xl text-center tracking-wide leading-tight font-poppins"
       >
-        Rate your favorite beauty <br />products
+        Rate your favorite beauty <br class="hidden md:block" />products
       </p>
     </div>
 
@@ -641,8 +641,8 @@
       </div>
     </div>
 
-    <div class="flex justify-center items-center mb-10">
-      <p class="text-[#fbf5e3] text-4xl font-poppins">
+    <div class="flex justify-center items-center mb-10 px-1">
+      <p class="text-[#fbf5e3] md:text-4xl text-2xl text-center font-poppins">
         Explore new products recommended by similar users
       </p>
     </div>
@@ -1074,7 +1074,7 @@
 
     <div class="flex justify-center items-center pb-16">
       <div
-        class="carousel carousel-center p-4 space-x-4 bg-[#164d4d] rounded-box max-w-[1120px]"
+        class="carousel carousel-center p-4 space-x-4 bg-[#164d4d] rounded-box md:max-w-[1120px] max-w-[290px]"
       >
         <div class="carousel-item">
           <div class="bg-white h-[295px] w-[264px] rounded-3xl p-5">
@@ -1276,7 +1276,9 @@
     </div>
 
     <div class="flex justify-center items-center mb-10">
-      <p class="text-[#fbf5e3] text-4xl font-poppins">Will you help out?</p>
+      <p class="text-[#fbf5e3] md:text-4xl text-2xl font-poppins">
+        Will you help out?
+      </p>
     </div>
 
     <!-- <div class="px-20">
@@ -1787,13 +1789,13 @@
     </div>
 
     <div class="flex justify-center items-center mb-16">
-      <p class="text-[#fbf5e3] text-4xl font-poppins">
+      <p class="text-[#fbf5e3] md:text-4xl text-2xl text-center font-poppins">
         Explore products based on the problem to solve
       </p>
     </div>
 
-    <div class="flex justify-center items-center mb-16">
-      <div class="grid grid-cols-4 gap-10">
+    <div class="flex justify-center items-center mb-16 px-5 md:px-0">
+      <div class="grid md:grid-cols-4 grid-cols-2 md:gap-10 gap-3">
         <div class="flex justify-center items-center">
           <p class="absolute text-[#fbf5e3]">Psoriasis</p>
           <img src="psoriasis.svg" alt="" />
@@ -1813,34 +1815,37 @@
       </div>
     </div>
 
-    <div class="bg-[#0C3434] h-[406px] py-5">
+    <div class="bg-[#0C3434] md:h-[406px] py-5">
       <div class="flex justify-center mb-6">
         <p class="text-[#fbf5e3] font-bold text-xl font-poppins">
           glamy beauty
         </p>
       </div>
       <div class="flex justify-center items-center mb-8">
-        <p class="text-[#fbf5e3] text-4xl font-poppins">
+        <p class="text-[#fbf5e3] md:text-4xl text-2xl text-center font-poppins">
           Receive updates on the latest products!
         </p>
       </div>
 
-      <div class="flex justify-center">
+      <div class="flex justify-center px-5">
         <form>
-          <div class="flex gap-8">
+          <div
+            class="grid md:grid-cols-2 md:gap-8 place-content-center place items-center"
+          >
             <input
-              class="w-[210px] h-[58px] mb-[24px] rounded-[20px] bg-[#164D4D] border border-[#E6E6E6] focus:outline-none focus:ring focus:ring-[#FBF5E3] text-center text-[#FBF5E3] placeholder:font-inter placeholder:text-center placeholder:text-[#FBF5E3]"
+              class="md:w-[210px] w-[350px] h-[58px] mb-[24px] rounded-[20px] bg-[#164D4D] border border-[#E6E6E6] focus:outline-none focus:ring focus:ring-[#FBF5E3] text-center text-[#FBF5E3] placeholder:font-inter placeholder:text-center placeholder:text-[#FBF5E3]"
               placeholder="Name..."
               required
-            /><input
-              class="w-[210px] h-[58px] mb-[24px] rounded-[20px] bg-[#164D4D] border border-[#E6E6E6] focus:outline-none focus:ring focus:ring-[#FBF5E3] text-center text-[#FBF5E3] placeholder:font-inter placeholder:text-center placeholder:text-[#FBF5E3]"
+            />
+            <input
+              class="md:w-[210px] w-[350px] h-[58px] mb-[24px] rounded-[20px] bg-[#164D4D] border border-[#E6E6E6] focus:outline-none focus:ring focus:ring-[#FBF5E3] text-center text-[#FBF5E3] placeholder:font-inter placeholder:text-center placeholder:text-[#FBF5E3]"
               placeholder="Last Name..."
               required
             />
           </div>
           <div>
             <input
-              class="w-[450px] h-[58px] mb-[24px] rounded-[20px] bg-[#164D4D] border border-[#E6E6E6] focus:outline-none focus:ring focus:ring-[#FBF5E3] text-center text-[#FBF5E3] placeholder:font-inter placeholder:text-center placeholder:text-[#FBF5E3]"
+              class="md:w-[450px] w-[350px] h-[58px] mb-[24px] rounded-[20px] bg-[#164D4D] border border-[#E6E6E6] focus:outline-none focus:ring focus:ring-[#FBF5E3] text-center text-[#FBF5E3] placeholder:font-inter placeholder:text-center placeholder:text-[#FBF5E3]"
               placeholder="email..."
               required
             />
@@ -1859,11 +1864,11 @@
 
     <div class="bg-[#0C3434] h-[246px] py-5">
       <div class="flex justify-center">
-        <div class="max-w-[450px] flex gap-12">
-          <p class="text-white font-poppins">About us</p>
-          <p class="text-white font-poppins">The plaform</p>
-          <p class="text-white font-poppins">Contact</p>
-          <p class="text-white font-poppins">Imprint</p>
+        <div class="max-w-[450px] grid md:flex grid-cols-2 md:gap-12 gap-5">
+          <p class="text-white font-poppins text-center">About us</p>
+          <p class="text-white font-poppins text-center">The platform</p>
+          <p class="text-white font-poppins text-center">Contact</p>
+          <p class="text-white font-poppins text-center">Imprint</p>
         </div>
       </div>
     </div>
