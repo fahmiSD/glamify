@@ -1,8 +1,8 @@
 <template>
-  <div class="pt-16">
-    <div class="flex justify-center mb-10">
+  <div class="md:pt-16 pt-8">
+    <div class="flex justify-center md:mb-10 mb-5">
       <p
-        class="text-[#fbf5e3] font-bold md:text-6xl text-4xl text-center tracking-wide leading-tight font-poppins"
+        class="text-[#fbf5e3] font-bold md:text-6xl text-2xl text-center tracking-wide leading-tight font-poppins"
       >
         Rate your favorite beauty <br class="hidden md:block" />products
       </p>
@@ -389,7 +389,7 @@
       </div>
     </div> -->
 
-    <div class="flex justify-center items-center pb-16">
+    <div class="flex justify-center items-center md:pb-16 pb-8">
       <div
         class="carousel carousel-center p-4 space-x-4 bg-[#164d4d] rounded-box max-w-[1140px]"
       >
@@ -641,8 +641,8 @@
       </div>
     </div>
 
-    <div class="flex justify-center items-center mb-10 px-1">
-      <p class="text-[#fbf5e3] md:text-4xl text-2xl text-center font-poppins">
+    <div class="flex justify-center items-center md:mb-10 mb-5 px-5">
+      <p class="text-[#fbf5e3] md:text-4xl text-lg text-center font-poppins">
         Explore new products recommended by similar users
       </p>
     </div>
@@ -1072,7 +1072,7 @@
       </div>
     </div> -->
 
-    <div class="flex justify-center items-center pb-16">
+    <div class="flex justify-center items-center md:pb-16 pb-8">
       <div
         class="carousel carousel-center p-4 space-x-4 bg-[#164d4d] rounded-box md:max-w-[1120px] max-w-[290px]"
       >
@@ -1275,8 +1275,8 @@
       </div>
     </div>
 
-    <div class="flex justify-center items-center mb-10">
-      <p class="text-[#fbf5e3] md:text-4xl text-2xl font-poppins">
+    <div class="flex justify-center items-center md:mb-10 mb-5">
+      <p class="text-[#fbf5e3] md:text-4xl text-xl font-poppins">
         Will you help out?
       </p>
     </div>
@@ -1591,7 +1591,7 @@
       </div>
     </div> -->
 
-    <div class="flex justify-center items-center pb-16">
+    <div class="flex justify-center items-center md:pb-16 pb-8">
       <div
         class="carousel carousel-center p-4 space-x-4 bg-[#164d4d] rounded-box max-w-[1140px]"
       >
@@ -1780,16 +1780,18 @@
       </div>
     </div>
 
-    <div class="flex justify-center items-center mb-5">
-      <button
-        class="bg-[#fbf5e3] rounded-lg px-6 py-2 text-[#164d4d] font-bold"
-      >
-        REQUEST RECOMENDATION
-      </button>
+    <div class="flex justify-center items-center md:mb-5 mb-8">
+      <NuxtLink to="/product-recomendation">
+        <button
+          class="bg-[#fbf5e3] rounded-lg px-6 py-2 text-[#164d4d] font-bold"
+        >
+          REQUEST RECOMENDATION
+        </button>
+      </NuxtLink>
     </div>
 
-    <div class="flex justify-center items-center mb-16">
-      <p class="text-[#fbf5e3] md:text-4xl text-2xl text-center font-poppins">
+    <div class="flex justify-center items-center md:mb-16 mb-8 px-5">
+      <p class="text-[#fbf5e3] md:text-4xl text-lg text-center font-poppins">
         Explore products based on the problem to solve
       </p>
     </div>
@@ -1830,15 +1832,15 @@
       <div class="flex justify-center px-5">
         <form>
           <div
-            class="grid md:grid-cols-2 md:gap-8 place-content-center place items-center"
+            class="grid grid-cols-2 md:gap-8 gap-3 place-content-center place items-center"
           >
             <input
-              class="md:w-[210px] w-[350px] h-[58px] mb-[24px] rounded-[20px] bg-[#164D4D] border border-[#E6E6E6] focus:outline-none focus:ring focus:ring-[#FBF5E3] text-center text-[#FBF5E3] placeholder:font-inter placeholder:text-center placeholder:text-[#FBF5E3]"
+              class="md:w-[210px] w-[170px] h-[58px] mb-[24px] rounded-[20px] bg-[#164D4D] border border-[#E6E6E6] focus:outline-none focus:ring focus:ring-[#FBF5E3] text-center text-[#FBF5E3] placeholder:font-inter placeholder:text-center placeholder:text-[#FBF5E3]"
               placeholder="Name..."
               required
             />
             <input
-              class="md:w-[210px] w-[350px] h-[58px] mb-[24px] rounded-[20px] bg-[#164D4D] border border-[#E6E6E6] focus:outline-none focus:ring focus:ring-[#FBF5E3] text-center text-[#FBF5E3] placeholder:font-inter placeholder:text-center placeholder:text-[#FBF5E3]"
+              class="md:w-[210px] w-[170px] h-[58px] mb-[24px] rounded-[20px] bg-[#164D4D] border border-[#E6E6E6] focus:outline-none focus:ring focus:ring-[#FBF5E3] text-center text-[#FBF5E3] placeholder:font-inter placeholder:text-center placeholder:text-[#FBF5E3]"
               placeholder="Last Name..."
               required
             />
@@ -1859,17 +1861,6 @@
             </button>
           </div>
         </form>
-      </div>
-    </div>
-
-    <div class="bg-[#0C3434] h-[246px] py-5">
-      <div class="flex justify-center">
-        <div class="max-w-[450px] grid md:flex grid-cols-2 md:gap-12 gap-5">
-          <p class="text-white font-poppins text-center">About us</p>
-          <p class="text-white font-poppins text-center">The platform</p>
-          <p class="text-white font-poppins text-center">Contact</p>
-          <p class="text-white font-poppins text-center">Imprint</p>
-        </div>
       </div>
     </div>
   </div>

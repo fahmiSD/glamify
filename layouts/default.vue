@@ -69,26 +69,11 @@
         </ul>
       </nav>
       <nav class="md:hidden">
-        <div class="flex justify-between">
-          <div>
-            <a href="/"
-              ><p class="text-white font-bold text-xl">glamify beauty</p></a
-            >
-          </div>
-          <div>
+        <div class="flex justify-around">
+          <div class="flex justify-center">
             <!-- The button to open modal -->
-            <label for="modalNavbar" class="">
-              <svg
-                class="swap-off fill-current text-white"
-                xmlns="http://www.w3.org/2000/svg"
-                width="32"
-                height="32"
-                viewBox="0 0 512 512"
-              >
-                <path
-                  d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"
-                />
-              </svg>
+            <label for="modalNavbar" class="pt-1.5">
+              <img src="burgerNav.svg" alt="" />
             </label>
 
             <!-- Put this part before </body> tag -->
@@ -99,40 +84,6 @@
                   ><img src="/xModal.svg" alt=""
                 /></label>
                 <div class="flex flex-col">
-                  <form>
-                    <div class="flex pt-10">
-                      <div class="relative w-[471px] h-[55px]">
-                        <input
-                          type="search"
-                          id="search-dropdown"
-                          class="block p-2.5 pl-[26px] w-full h-[55px] z-20 text-sm text-gray-900 bg-gray-50 rounded-2xl border border-[#E6E6E6] focus:outline-none focus:border-[#164D4D] ring-inset focus:ring focus:ring-[#164D4D]"
-                          placeholder="Search for your product..."
-                          required
-                        />
-                        <button
-                          type="submit"
-                          class="absolute top-0 right-0 bottom-0 p-2.5 w-[60px] text-sm font-medium text-white bg-[#164D4D] rounded-r-2xl border border-white hover:bg-[#164D4D]"
-                        >
-                          <svg
-                            aria-hidden="true"
-                            class="w-5 h-5 ml-2"
-                            fill="none"
-                            stroke="currentColor"
-                            viewBox="0 0 24 24"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              stroke-linecap="round"
-                              stroke-linejoin="round"
-                              stroke-width="2"
-                              d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                            ></path>
-                          </svg>
-                          <span class="sr-only">Search</span>
-                        </button>
-                      </div>
-                    </div>
-                  </form>
                   <label for="modalNavbar">
                     <ul class="flex flex-col gap-10 pt-10">
                       <li>
@@ -171,6 +122,50 @@
               </div>
             </div>
           </div>
+          <div>
+            <a href="/"
+              ><p class="text-white font-bold text-xl">glamify beauty</p></a
+            >
+          </div>
+          <div class="flex justify-center">
+            <img src="/user.svg" alt="" />
+          </div>
+        </div>
+        <div>
+          <form>
+            <div class="flex justify-center pt-5">
+              <div class="relative h-[55px]">
+                <input
+                  type="search"
+                  id="search-dropdown"
+                  class="block p-2.5 pl-[26px] w-[297px] h-[55px] z-20 text-sm text-gray-900 bg-gray-50 rounded-2xl border border-[#E6E6E6] focus:outline-none focus:border-[#164D4D] ring-inset focus:ring focus:ring-[#164D4D]"
+                  placeholder="Search for your product..."
+                  required
+                />
+                <button
+                  type="submit"
+                  class="absolute top-0 right-0 bottom-0 p-2.5 w-[60px] text-sm font-medium text-white bg-[#164D4D] rounded-r-2xl border border-white hover:bg-[#164D4D]"
+                >
+                  <svg
+                    aria-hidden="true"
+                    class="w-5 h-5 ml-2"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="2"
+                      d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
+                    ></path>
+                  </svg>
+                  <span class="sr-only">Search</span>
+                </button>
+              </div>
+            </div>
+          </form>
         </div>
       </nav>
     </header>
@@ -179,6 +174,19 @@
     <div class="bg-green h-full">
       <slot />
     </div>
+
+    <footer>
+      <div class="bg-[#0C3434] h-[246px] py-5">
+        <div class="flex justify-center">
+          <div class="max-w-[450px] grid md:flex grid-cols-2 md:gap-12 gap-5">
+            <p class="text-white font-poppins text-center">About us</p>
+            <p class="text-white font-poppins text-center">The platform</p>
+            <p class="text-white font-poppins text-center">Contact</p>
+            <p class="text-white font-poppins text-center">Imprint</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </div>
 </template>
 

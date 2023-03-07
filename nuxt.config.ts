@@ -149,7 +149,7 @@ export default defineNuxtConfig({
         },
       ],
       bodyAttrs: {
-        class: "bg-[#164d4d] h-[1248px]",
+        class: "bg-[#164d4d] max-h-[1248px]",
       },
     },
   },
