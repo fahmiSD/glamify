@@ -79,7 +79,7 @@
             <!-- The button to open modal -->
             <label for="modalNavbar" class="">
               <svg
-                class="swap-off fill-current"
+                class="swap-off fill-current text-white"
                 xmlns="http://www.w3.org/2000/svg"
                 width="32"
                 height="32"
