@@ -1824,7 +1824,7 @@
         </p>
       </div>
       <div class="flex justify-center items-center mb-8">
-        <p class="text-[#fbf5e3] md:text-4xl text-2xl text-center font-poppins">
+        <p class="text-[#fbf5e3] md:text-4xl text-xl text-center font-poppins">
           Receive updates on the latest products!
         </p>
       </div>
@@ -1861,6 +1861,16 @@
             </button>
           </div>
         </form>
+      </div>
+    </div>
+    <div class="bg-[#0C3434] h-[246px] md:py-5 py-8 md:block hidden">
+      <div class="flex justify-center">
+        <div class="max-w-[450px] grid md:flex grid-cols-2 md:gap-12 gap-8">
+          <p class="text-white font-poppins text-center">About us</p>
+          <p class="text-white font-poppins text-center">The platform</p>
+          <p class="text-white font-poppins text-center">Contact</p>
+          <p class="text-white font-poppins text-center">Imprint</p>
+        </div>
       </div>
     </div>
   </div>

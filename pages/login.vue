@@ -3,7 +3,7 @@
     <form>
       <div>
         <p
-          class="font-poppins text-[36px] text-[#FBF5E3] mb-[33px] text-center"
+          class="font-poppins font-bold md:font-normal text-2xl md:text-[36px] text-[#FBF5E3] md:mb-[33px] mb-4 text-center"
         >
           Log in
         </p>
@@ -23,17 +23,17 @@
           required
         />
       </div>
-      <div class="text-center mb-[22px]">
+      <div class="text-center md:mb-[22px] mb-7">
         <a
           href="#"
           class="text-[#FBF5E3] font-inter underline underline-offset-4"
           >Forgot password?</a
         >
       </div>
-      <div class="text-center mb-[80px]">
+      <div class="text-center md:mb-[80px] mb-7">
         <button
           type="submit"
-          class="bg-[#FBF5E3] rounded-[10px] w-[119px] h-[40px]"
+          class="bg-[#FBF5E3] rounded-[10px] md:w-[119px] md:h-[40px] px-10 py-3"
         >
           <p class="text-[#164D4D] font-inter font-bold">SUBMIT</p>
         </button>
@@ -41,8 +41,9 @@
       <div class="text-center">
         <a
           href="/signup"
-          class="text-[#FBF5E3] font-inter underline underline-offset-4"
-          >Don't have an account yet? Sign up!</a
+          class="text-[#FBF5E3] font-inter underline underline-offset-4 font-semibold"
+          >Don't have an account yet? <br class="md:hidden" />
+          Sign up!</a
         >
       </div>
     </form>
