@@ -3,7 +3,7 @@
     <form>
       <div>
         <p
-          class="font-poppins text-[36px] text-[#FBF5E3] mb-[33px] text-center"
+          class="font-poppins font-bold text-2xl md:font-normal md:text-[36px] text-[#FBF5E3] md:mb-[33px] mb-4 text-center"
         >
           Sign up
         </p>

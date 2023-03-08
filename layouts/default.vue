@@ -175,10 +175,10 @@
       <slot />
     </div>
 
-    <footer>
-      <div class="bg-[#0C3434] h-[246px] py-5">
+    <footer class="md:hidden">
+      <div class="bg-[#0C3434] h-[246px] md:py-5 py-8">
         <div class="flex justify-center">
-          <div class="max-w-[450px] grid md:flex grid-cols-2 md:gap-12 gap-5">
+          <div class="max-w-[450px] grid md:flex grid-cols-2 md:gap-12 gap-8">
             <p class="text-white font-poppins text-center">About us</p>
             <p class="text-white font-poppins text-center">The platform</p>
             <p class="text-white font-poppins text-center">Contact</p>
