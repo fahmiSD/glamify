@@ -87,13 +87,13 @@
                   <label for="modalNavbar">
                     <ul class="flex flex-col gap-10 pt-10">
                       <li>
-                        <NuxtLink to="/product-recomendation"
+                        <a href="/product-recomendation"
                           ><p
                             class="text-center text-[#164d4d] font-semibold text-xl"
                           >
                             Recomendation <br />
                             Request
-                          </p></NuxtLink
+                          </p></a
                         >
                       </li>
                       <li>
@@ -107,13 +107,13 @@
                         >
                       </li>
                       <li>
-                        <NuxtLink to="/login" class=""
+                        <a href="/login" class=""
                           ><p
                             class="text-center text-[#164d4d] font-semibold text-xl"
                           >
                             Login / <br />
                             Sign up
-                          </p></NuxtLink
+                          </p></a
                         >
                       </li>
                     </ul>

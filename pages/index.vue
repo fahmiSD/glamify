@@ -1799,20 +1799,44 @@
     <div class="flex justify-center items-center mb-16 px-5 md:px-0">
       <div class="grid md:grid-cols-4 grid-cols-2 md:gap-10 gap-3">
         <div class="flex justify-center items-center">
-          <p class="absolute text-[#fbf5e3]">Psoriasis</p>
-          <img src="psoriasis.svg" alt="" />
+          <p class="absolute text-[#fbf5e3] text-sm md:text-md font-semibold">
+            Psoriasis
+          </p>
+          <img
+            src="psoriasis.svg"
+            alt=""
+            class="w-[137px] h-[126px] md:w-full md:h-full object-cover object-center rounded-3xl"
+          />
         </div>
         <div class="flex justify-center items-center">
-          <p class="absolute text-[#fbf5e3]">Hyperpigmentation</p>
-          <img src="hyperpigmentation.svg" alt="" />
+          <p class="absolute text-[#fbf5e3] text-sm md:text-md font-semibold">
+            Hyperpigmentation
+          </p>
+          <img
+            src="hyperpigmentation.svg"
+            alt=""
+            class="w-[137px] h-[126px] md:w-full md:h-full object-cover object-center rounded-3xl"
+          />
         </div>
         <div class="flex justify-center items-center">
-          <p class="absolute text-[#fbf5e3]">Rejuvenation</p>
-          <img src="rejuvenation.svg" alt="" />
+          <p class="absolute text-[#fbf5e3] text-sm md:text-md font-semibold">
+            Rejuvenation
+          </p>
+          <img
+            src="rejuvenation.svg"
+            alt=""
+            class="w-[137px] h-[126px] md:w-full md:h-full object-cover object-center rounded-3xl"
+          />
         </div>
         <div class="flex justify-center items-center">
-          <p class="absolute text-[#fbf5e3]">Acne</p>
-          <img src="acne.svg" alt="" />
+          <p class="absolute text-[#fbf5e3] text-sm md:text-md font-semibold">
+            Acne
+          </p>
+          <img
+            src="acne.svg"
+            alt=""
+            class="w-[137px] h-[126px] md:w-full md:h-full object-cover object-center rounded-3xl"
+          />
         </div>
       </div>
     </div>
