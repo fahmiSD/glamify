@@ -2,11 +2,7 @@
   <div class="flex flex-col justify-center items-center h-screen">
     <form>
       <div>
-        <p
-          class="font-poppins font-bold md:font-normal text-2xl md:text-[36px] text-[#FBF5E3] md:mb-[33px] mb-4 text-center"
-        >
-          Log in
-        </p>
+        <p class="font-poppins font-bold md:font-normal text-2xl md:text-[36px] text-[#FBF5E3] md:mb-[33px] mb-4 text-center">Log in</p>
       </div>
       <div class="flex justify-center items-center">
         <input
@@ -24,24 +20,15 @@
         />
       </div>
       <div class="text-center md:mb-[22px] mb-7">
-        <a
-          href="#"
-          class="text-[#FBF5E3] font-inter underline underline-offset-4"
-          >Forgot password?</a
-        >
+        <a href="#" class="text-[#FBF5E3] font-inter underline underline-offset-4">Forgot password?</a>
       </div>
       <div class="text-center md:mb-[80px] mb-7">
-        <button
-          type="submit"
-          class="bg-[#FBF5E3] rounded-[10px] md:w-[119px] md:h-[40px] px-10 py-3"
-        >
+        <button type="submit" class="bg-[#FBF5E3] rounded-[10px] md:w-[119px] md:h-[40px]">
           <p class="text-[#164D4D] font-inter font-bold">SUBMIT</p>
         </button>
       </div>
       <div class="text-center">
-        <a
-          href="/signup"
-          class="text-[#FBF5E3] font-inter underline underline-offset-4 font-semibold"
+        <a href="/signup" class="text-[#FBF5E3] font-inter underline underline-offset-4 font-semibold"
           >Don't have an account yet? <br class="md:hidden" />
           Sign up!</a
         >
