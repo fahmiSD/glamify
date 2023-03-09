@@ -3,9 +3,11 @@
     <form>
       <div>
         <p
-          class="font-poppins text-[36px] text-[#FBF5E3] mb-[17px] text-center"
+          class="font-poppins md:text-[36px] text-2xl text-[#FBF5E3] mb-[18px] text-center"
         >
-          External factors<br />affecting your skin
+          External factors<br class="hidden md:block" />
+          affecting<br class="md:hidden" />
+          your skin
         </p>
       </div>
       <div class="flex justify-center items-center">

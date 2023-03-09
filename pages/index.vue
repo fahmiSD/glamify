@@ -1887,6 +1887,7 @@
         </form>
       </div>
     </div>
+
     <div class="bg-[#0C3434] h-[246px] md:py-5 py-8 md:block hidden">
       <div class="flex justify-center">
         <div class="max-w-[450px] grid md:flex grid-cols-2 md:gap-12 gap-8">

@@ -452,11 +452,20 @@
                                           </div>
                                           <div class="flex justify-center">
                                             <!-- The button to open modal -->
-                                            <label
-                                              for="requestSubmitted"
-                                              class="text-white bg-[#164d4d] px-5 py-1 rounded-lg"
-                                              >SUBMIT REQUEST</label
-                                            >
+                                            <!-- <button> -->
+                                            <label for="recommendModal">
+                                              <label for="newProduct">
+                                                <label for="nextAddProduct">
+                                                  <label
+                                                    for="requestSubmitted"
+                                                    class="text-white bg-[#164d4d] px-5 py-1 rounded-lg"
+                                                  >
+                                                    SUBMIT REQUEST
+                                                  </label>
+                                                </label>
+                                              </label>
+                                            </label>
+                                            <!-- </button> -->
 
                                             <!-- Put this part before </body> tag -->
                                             <input
@@ -468,13 +477,14 @@
                                               <div
                                                 class="modal-box relative bg-white w-[550px] md:h-[486px] h-[800px] flex justify-center items-center"
                                               >
-                                                <label
-                                                  for="requestSubmitted"
+                                                <button
                                                   class="absolute right-4 top-4"
-                                                  ><img
+                                                >
+                                                  <img
                                                     src="/xModal.svg"
                                                     alt=""
-                                                /></label>
+                                                  />
+                                                </button>
                                                 <div
                                                   class="flex flex-col items-center gap-5"
                                                 >
@@ -495,11 +505,12 @@
                                                     all right the product and
                                                     review will be posted.
                                                   </p>
-                                                  <label
-                                                    for="newProduct"
+
+                                                  <button
                                                     class="text-white bg-[#164d4d] px-5 py-1 rounded-lg"
-                                                    >ADD ANOTHER PRODUCT</label
                                                   >
+                                                    ADD ANOTHER PRODUCT
+                                                  </button>
                                                 </div>
                                               </div>
                                             </div>
@@ -623,7 +634,7 @@
                                       id="spellCheck"
                                       class="modal-toggle"
                                     />
-                                    <div class="modal h-screen">
+                                    <div class="modal">
                                       <div
                                         class="modal-box bg-white md:h-[486px] h-[800px] w-[550px] flex justify-center items-center relative max-h-screen"
                                       >
@@ -754,6 +765,8 @@
                       <textarea
                         name=""
                         id=""
+                        v-model="yourQuestion"
+                        @input="checkFilled2"
                         cols="26"
                         rows="6"
                         placeholder="Write your question (eg. Does anyone know a good moisturizer that has a matte finish? My skin tends to get too shiny in the summer”)"
@@ -761,11 +774,67 @@
                       ></textarea>
                     </div>
                     <div class="flex justify-center gap-3">
-                      <button
-                        class="text-white bg-[#618686] px-2 py-1.5 rounded-lg"
-                      >
-                        SPELL CHECK
-                      </button>
+                      <div class="flex justify-center gap-3">
+                        <div class="mt-1">
+                          <label for="spellCheck2" :class="spellCheckClass2"
+                            >SPELL CHECK</label
+                          >
+                          <!-- Put this part before </body> tag -->
+                          <input
+                            type="checkbox"
+                            id="spellCheck2"
+                            class="modal-toggle"
+                          />
+                          <div class="modal">
+                            <div
+                              class="modal-box bg-white md:h-[486px] h-[800px] w-[550px] flex justify-center items-center relative max-h-screen"
+                            >
+                              <label
+                                for="spellCheck2"
+                                class="absolute right-4 top-4"
+                                ><img src="/xModal.svg" alt=""
+                              /></label>
+                              <div>
+                                <form>
+                                  <h3 class="text-center mb-3">Your Text</h3>
+                                  <div class="flex justify-center mb-3">
+                                    <textarea
+                                      name=""
+                                      id=""
+                                      class="w-[360px] h-[105px] rounded-2xl border border-[#e6e6e6] bg-[#f9f9f9] focus:ring-[#207a7a] focus:border-[#207a7a] placeholder:p-3 p-3"
+                                      :value="yourQuestion"
+                                    ></textarea>
+                                  </div>
+                                  <h3 class="text-center mb-3">
+                                    Text correction
+                                  </h3>
+                                  <div class="flex justify-center mb-10">
+                                    <textarea
+                                      v-model="filed2"
+                                      name=""
+                                      id=""
+                                      class="w-[360px] h-[105px] rounded-2xl border border-[#e6e6e6] bg-[#f9f9f9] focus:ring-[#207a7a] focus:border-[#207a7a] placeholder:p-3 p-3"
+                                    ></textarea>
+                                  </div>
+                                  <div class="flex justify-center gap-3">
+                                    <button
+                                      class="text-white bg-[#e6e6e6] px-5 py-1 rounded-lg"
+                                    >
+                                      REJECT
+                                    </button>
+                                    <label
+                                      for="spellCheck2"
+                                      class="text-white bg-[#164d4d] px-5 py-1 rounded-lg"
+                                    >
+                                      APPLY
+                                    </label>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                       <div class="flex justify-center">
                         <label
                           for="moreInformation"
@@ -986,7 +1055,9 @@ export default {
     return {
       save1: "saveGray.svg",
       inputYourRecommendation: "",
+      yourQuestion: "",
       filled: false,
+      filled2: false,
     };
   },
   methods: {
@@ -995,6 +1066,13 @@ export default {
         this.filled = true;
       } else {
         this.filled = false;
+      }
+    },
+    checkFilled2() {
+      if (this.yourQuestion) {
+        this.filled2 = true;
+      } else {
+        this.filled2 = false;
       }
     },
     changeSave1() {
@@ -1008,6 +1086,13 @@ export default {
   computed: {
     spellCheckClass() {
       if (this.filled) {
+        return "text-white bg-[#618686] px-2 py-1.5 rounded-lg";
+      } else {
+        return "hidden";
+      }
+    },
+    spellCheckClass2() {
+      if (this.filled2) {
         return "text-white bg-[#618686] px-2 py-1.5 rounded-lg";
       } else {
         return "hidden";
