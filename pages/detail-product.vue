@@ -6,7 +6,7 @@
           <div class="flex justify-end">
             <div class="absolute">
               <div
-                class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
+                class="w-[43px] h-[33px] border border-[#164d4d] rounded-3xl flex items-center justify-center drop-shadow-lg"
               >
                 <img src="/like.svg" alt="" />
               </div>
@@ -17,7 +17,7 @@
               <!-- The button to open modal -->
               <label
                 for="my-modal-3"
-                class="text-[#fbf5e3] font-semibold bg-[#164d4d] border border-[#fbf5e3] rounded-xl px-10 py-3 hidden group-hover:block"
+                class="text-[#fbf5e3] font-semibold bg-[#164d4d] border border-[#fbf5e3] rounded-3xl px-10 py-3 hidden group-hover:block"
                 >REVIEW</label
               >
 
@@ -149,6 +149,309 @@
           </p>
           <p class="font-semibold text-center text-[#797878]">The ordinary</p>
         </div>
+        <div
+          class="bg-white w-full h-[215px] md:h-[143px] flex items-center rounded-3xl mb-8 p-3 md:hidden"
+        >
+          <div>
+            <p class="text-[#164d4d] text-center font-inter font-semibold mb-3">
+              Top review
+            </p>
+            <p class="text-xs font-poppins text-center text-[#737373] mb-6">
+              “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud...” Read more
+            </p>
+            <div class="flex justify-between">
+              <div class="flex gap-2">
+                <img src="/merry.svg" alt="merry" width="31px" />
+                <div>
+                  <p class="text-sm font-semibold text-[#164d4d]">Mery</p>
+                  <p class="text-xs text-[#618686]">+14 upvotes</p>
+                </div>
+              </div>
+              <!-- <div class="flex items-center">
+                <img
+                  :src="up1"
+                  @click="changeUp1"
+                  alt=""
+                  class="absolute cursor-pointer"
+                />
+              </div> -->
+              <div class="flex gap-1">
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+                <img src="/star.svg" alt="star" width="20px" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-center items-center md:pb-16 pb-8 md:hidden">
+          <div
+            class="carousel carousel-center p-2 space-x-4 bg-[#164d4d] max-w-[1140px]"
+          >
+            <div class="carousel-item">
+              <div class="bg-white h-[171px] flex items-center rounded-3xl p-5">
+                <div>
+                  <p
+                    class="text-xs font-poppins max-w-[320px] text-center text-[#737373] mb-8"
+                  >
+                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua...” Read more
+                  </p>
+                  <div class="flex justify-between">
+                    <div class="flex gap-2">
+                      <img src="/merry.svg" alt="merry" width="31px" />
+                      <div>
+                        <p class="text-sm font-semibold text-[#164d4d]">Mery</p>
+                        <p class="text-xs text-[#618686]">+14 upvotes</p>
+                      </div>
+                    </div>
+                    <!-- <div class="flex items-center ">
+                    <img
+                      :src="up1"
+                      @click="changeUp2"
+                      alt=""
+                      class="absolute cursor-pointer"
+                    />
+                  </div> -->
+                    <div class="flex gap-1">
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="bg-white h-[171px] flex items-center rounded-3xl p-5">
+                <div>
+                  <p
+                    class="text-xs font-poppins max-w-[320px] text-center text-[#737373] mb-8"
+                  >
+                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua...” Read more
+                  </p>
+                  <div class="flex justify-between">
+                    <div class="flex gap-2">
+                      <img src="/merry.svg" alt="merry" width="31px" />
+                      <div>
+                        <p class="text-sm font-semibold text-[#164d4d]">Mery</p>
+                        <p class="text-xs text-[#618686]">+14 upvotes</p>
+                      </div>
+                    </div>
+                    <!-- <div class="flex items-center ">
+                    <img
+                      :src="up1"
+                      @click="changeUp2"
+                      alt=""
+                      class="absolute cursor-pointer"
+                    />
+                  </div> -->
+                    <div class="flex gap-1">
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="bg-white h-[171px] flex items-center rounded-3xl p-5">
+                <div>
+                  <p
+                    class="text-xs font-poppins max-w-[320px] text-center text-[#737373] mb-8"
+                  >
+                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua...” Read more
+                  </p>
+                  <div class="flex justify-between">
+                    <div class="flex gap-2">
+                      <img src="/merry.svg" alt="merry" width="31px" />
+                      <div>
+                        <p class="text-sm font-semibold text-[#164d4d]">Mery</p>
+                        <p class="text-xs text-[#618686]">+14 upvotes</p>
+                      </div>
+                    </div>
+                    <!-- <div class="flex items-center ">
+                    <img
+                      :src="up1"
+                      @click="changeUp2"
+                      alt=""
+                      class="absolute cursor-pointer"
+                    />
+                  </div> -->
+                    <div class="flex gap-1">
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="bg-white h-[171px] flex items-center rounded-3xl p-5">
+                <div>
+                  <p
+                    class="text-xs font-poppins max-w-[320px] text-center text-[#737373] mb-8"
+                  >
+                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua...” Read more
+                  </p>
+                  <div class="flex justify-between">
+                    <div class="flex gap-2">
+                      <img src="/merry.svg" alt="merry" width="31px" />
+                      <div>
+                        <p class="text-sm font-semibold text-[#164d4d]">Mery</p>
+                        <p class="text-xs text-[#618686]">+14 upvotes</p>
+                      </div>
+                    </div>
+                    <!-- <div class="flex items-center ">
+                    <img
+                      :src="up1"
+                      @click="changeUp2"
+                      alt=""
+                      class="absolute cursor-pointer"
+                    />
+                  </div> -->
+                    <div class="flex gap-1">
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="bg-white h-[171px] flex items-center rounded-3xl p-5">
+                <div>
+                  <p
+                    class="text-xs font-poppins max-w-[320px] text-center text-[#737373] mb-8"
+                  >
+                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua...” Read more
+                  </p>
+                  <div class="flex justify-between">
+                    <div class="flex gap-2">
+                      <img src="/merry.svg" alt="merry" width="31px" />
+                      <div>
+                        <p class="text-sm font-semibold text-[#164d4d]">Mery</p>
+                        <p class="text-xs text-[#618686]">+14 upvotes</p>
+                      </div>
+                    </div>
+                    <!-- <div class="flex items-center ">
+                    <img
+                      :src="up1"
+                      @click="changeUp2"
+                      alt=""
+                      class="absolute cursor-pointer"
+                    />
+                  </div> -->
+                    <div class="flex gap-1">
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="bg-white h-[171px] flex items-center rounded-3xl p-5">
+                <div>
+                  <p
+                    class="text-xs font-poppins max-w-[320px] text-center text-[#737373] mb-8"
+                  >
+                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua...” Read more
+                  </p>
+                  <div class="flex justify-between">
+                    <div class="flex gap-2">
+                      <img src="/merry.svg" alt="merry" width="31px" />
+                      <div>
+                        <p class="text-sm font-semibold text-[#164d4d]">Mery</p>
+                        <p class="text-xs text-[#618686]">+14 upvotes</p>
+                      </div>
+                    </div>
+                    <!-- <div class="flex items-center ">
+                    <img
+                      :src="up1"
+                      @click="changeUp2"
+                      alt=""
+                      class="absolute cursor-pointer"
+                    />
+                  </div> -->
+                    <div class="flex gap-1">
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="bg-white h-[171px] flex items-center rounded-3xl p-5">
+                <div>
+                  <p
+                    class="text-xs font-poppins max-w-[320px] text-center text-[#737373] mb-8"
+                  >
+                    “Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua...” Read more
+                  </p>
+                  <div class="flex justify-between">
+                    <div class="flex gap-2">
+                      <img src="/merry.svg" alt="merry" width="31px" />
+                      <div>
+                        <p class="text-sm font-semibold text-[#164d4d]">Mery</p>
+                        <p class="text-xs text-[#618686]">+14 upvotes</p>
+                      </div>
+                    </div>
+                    <!-- <div class="flex items-center ">
+                    <img
+                      :src="up1"
+                      @click="changeUp2"
+                      alt=""
+                      class="absolute cursor-pointer"
+                    />
+                  </div> -->
+                    <div class="flex gap-1">
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                      <img src="/star.svg" alt="star" width="20px" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="bg-white w-full h-[166px] rounded-2xl mb-8 p-3">
           <p class="text-[#164d4d] text-center font-inter font-semibold">
             Description
@@ -181,7 +484,7 @@
         </div>
         <div class="bg-white w-full h-[121px] rounded-2xl p-3 mb-8">
           <p class="text-[#164d4d] text-center font-inter font-semibold">
-            Don'tmix with
+            Don't mix with
           </p>
           <p class="text-xs font-poppins text-center text-[#737373]">
             Lorem, ipsum dolor, sit amet, consectetur adipiscing elit, sed do
@@ -189,8 +492,208 @@
           </p>
         </div>
       </div>
-      <div class="md:col-span-8 px-3">
-        <div class="bg-white w-full md:h-[143px] rounded-xl mb-8 p-3">
+
+      <div class="flex justify-center mb-5 mt-3 md:hidden">
+        <p class="text-[#fbf5e3] font-poppins text-xl">Featured in</p>
+      </div>
+
+      <div class="flex justify-center items-center md:pb-16 pb-8 md:hidden">
+        <div
+          class="carousel carousel-center p-4 space-x-4 bg-[#164d4d] rounded-box max-w-[1140px]"
+        >
+          <div class="carousel-item">
+            <div class="bg-white h-[245px] w-[360px] rounded-3xl px-5 pb-5">
+              <img
+                :src="save1"
+                @click="changeSave1"
+                alt="save"
+                class="relative cursor-pointer ml-5 -top-1"
+              />
+              <div class="flex justify-center items-center mb-2">
+                <img src="/lighting.svg" alt="lighting" />
+                <img src="/brush.svg" alt="brush" />
+              </div>
+              <p class="text-center mb-5">
+                “I have a very formal event tomorrow and need help finding a
+                long stay red lipstick! I won’t have time to retouch it for
+                hours and don’t want to look messy in the picures. Can anyone
+                help?”
+              </p>
+              <div class="flex justify-center">
+                <button
+                  class="bg-[#164d4d] text-[#ffffff] rounded-xl text-sm px-2 py-1 font-bold"
+                >
+                  RECOMMEND NOW
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="bg-white h-[245px] w-[360px] rounded-3xl px-5 pb-5">
+              <img
+                :src="save2"
+                @click="changeSave2"
+                alt="save"
+                class="relative cursor-pointer ml-5 -top-1"
+              />
+              <div class="flex justify-center items-center mb-2">
+                <img src="/lighting.svg" alt="lighting" />
+                <img src="/brush.svg" alt="brush" />
+              </div>
+              <p class="text-center mb-5">
+                “I have a very formal event tomorrow and need help finding a
+                long stay red lipstick! I won’t have time to retouch it for
+                hours and don’t want to look messy in the picures. Can anyone
+                help?”
+              </p>
+              <div class="flex justify-center">
+                <button
+                  class="bg-[#164d4d] text-[#ffffff] rounded-xl text-sm px-2 py-1 font-bold"
+                >
+                  RECOMMEND NOW
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="bg-white h-[245px] w-[360px] rounded-3xl px-5 pb-5">
+              <img
+                :src="save3"
+                @click="changeSave3"
+                alt="save"
+                class="relative cursor-pointer ml-5 -top-1"
+              />
+              <div class="flex justify-center items-center mb-2">
+                <img src="/lighting.svg" alt="lighting" />
+                <img src="/brush.svg" alt="brush" />
+              </div>
+              <p class="text-center mb-5">
+                “I have a very formal event tomorrow and need help finding a
+                long stay red lipstick! I won’t have time to retouch it for
+                hours and don’t want to look messy in the picures. Can anyone
+                help?”
+              </p>
+              <div class="flex justify-center">
+                <button
+                  class="bg-[#164d4d] text-[#ffffff] rounded-xl text-sm px-2 py-1 font-bold"
+                >
+                  RECOMMEND NOW
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="bg-white h-[245px] w-[360px] rounded-3xl px-5 pb-5">
+              <img
+                :src="save4"
+                @click="changeSave4"
+                alt="save"
+                class="relative cursor-pointer ml-5 -top-1"
+              />
+              <div class="flex justify-center items-center mb-2">
+                <img src="/lighting.svg" alt="lighting" />
+                <img src="/brush.svg" alt="brush" />
+              </div>
+              <p class="text-center mb-5">
+                “I have a very formal event tomorrow and need help finding a
+                long stay red lipstick! I won’t have time to retouch it for
+                hours and don’t want to look messy in the picures. Can anyone
+                help?”
+              </p>
+              <div class="flex justify-center">
+                <button
+                  class="bg-[#164d4d] text-[#ffffff] rounded-xl text-sm px-2 py-1 font-bold"
+                >
+                  RECOMMEND NOW
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="bg-white h-[245px] w-[360px] rounded-3xl px-5 pb-5">
+              <img
+                :src="save5"
+                @click="changeSave5"
+                alt="save"
+                class="relative cursor-pointer ml-5 -top-1"
+              />
+              <div class="flex justify-center items-center mb-2">
+                <img src="/lighting.svg" alt="lighting" />
+                <img src="/brush.svg" alt="brush" />
+              </div>
+              <p class="text-center mb-5">
+                “I have a very formal event tomorrow and need help finding a
+                long stay red lipstick! I won’t have time to retouch it for
+                hours and don’t want to look messy in the picures. Can anyone
+                help?”
+              </p>
+              <div class="flex justify-center">
+                <button
+                  class="bg-[#164d4d] text-[#ffffff] rounded-xl text-sm px-2 py-1 font-bold"
+                >
+                  RECOMMEND NOW
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="bg-white h-[245px] w-[360px] rounded-3xl px-5 pb-5">
+              <img
+                :src="save6"
+                @click="changeSave6"
+                alt="save"
+                class="relative cursor-pointer ml-5 -top-1"
+              />
+              <div class="flex justify-center items-center mb-2">
+                <img src="/lighting.svg" alt="lighting" />
+                <img src="/brush.svg" alt="brush" />
+              </div>
+              <p class="text-center mb-5">
+                “I have a very formal event tomorrow and need help finding a
+                long stay red lipstick! I won’t have time to retouch it for
+                hours and don’t want to look messy in the picures. Can anyone
+                help?”
+              </p>
+              <div class="flex justify-center">
+                <button
+                  class="bg-[#164d4d] text-[#ffffff] rounded-xl text-sm px-2 py-1 font-bold"
+                >
+                  RECOMMEND NOW
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="bg-white h-[245px] w-[360px] rounded-3xl px-5 pb-5">
+              <img
+                :src="save7"
+                @click="changeSave7"
+                alt="save"
+                class="relative cursor-pointer ml-5 -top-1"
+              />
+              <div class="flex justify-center items-center mb-2">
+                <img src="/lighting.svg" alt="lighting" />
+                <img src="/brush.svg" alt="brush" />
+              </div>
+              <p class="text-center mb-5">
+                “I have a very formal event tomorrow and need help finding a
+                long stay red lipstick! I won’t have time to retouch it for
+                hours and don’t want to look messy in the picures. Can anyone
+                help?”
+              </p>
+              <div class="flex justify-center">
+                <button
+                  class="bg-[#164d4d] text-[#ffffff] rounded-xl text-sm px-2 py-1 font-bold"
+                >
+                  RECOMMEND NOW
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="md:col-span-8 px-3 hidden md:block">
+        <div class="bg-white w-full md:h-[143px] rounded-3xl mb-8 p-3">
           <p class="text-[#164d4d] text-center font-inter font-semibold">
             Top review
           </p>
@@ -225,7 +728,7 @@
           </div>
         </div>
         <div class="grid md:grid-cols-2 gap-8 mb-5">
-          <div class="bg-white w-full h-[153px] rounded-xl p-5">
+          <div class="bg-white w-full h-[153px] rounded-3xl p-5">
             <p class="text-xs font-poppins text-center text-[#737373] mb-8">
               “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua...”
@@ -256,7 +759,7 @@
               </div>
             </div>
           </div>
-          <div class="bg-white w-full h-[153px] rounded-xl p-5">
+          <div class="bg-white w-full h-[153px] rounded-3xl p-5">
             <p class="text-xs font-poppins text-center text-[#737373] mb-8">
               “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua...”
@@ -287,7 +790,7 @@
               </div>
             </div>
           </div>
-          <div class="bg-white w-full h-[153px] rounded-xl p-5">
+          <div class="bg-white w-full h-[153px] rounded-3xl p-5">
             <p class="text-xs font-poppins text-center text-[#737373] mb-8">
               “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua...”
@@ -318,7 +821,7 @@
               </div>
             </div>
           </div>
-          <div class="bg-white w-full h-[153px] rounded-xl p-5">
+          <div class="bg-white w-full h-[153px] rounded-3xl p-5">
             <p class="text-xs font-poppins text-center text-[#737373] mb-8">
               “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua...”
@@ -373,7 +876,7 @@
             </p>
             <div class="flex justify-center">
               <button
-                class="bg-[#164d4d] text-[#ffffff] rounded-xl text-sm px-2 py-1 font-bold"
+                class="bg-[#164d4d] text-[#ffffff] rounded-3xl text-sm px-2 py-1 font-bold"
               >
                 View
               </button>
@@ -391,7 +894,7 @@
             </p>
             <div class="flex justify-center">
               <button
-                class="bg-[#164d4d] text-[#ffffff] rounded-xl text-sm px-2 py-1 font-bold"
+                class="bg-[#164d4d] text-[#ffffff] rounded-3xl text-sm px-2 py-1 font-bold"
               >
                 View
               </button>
@@ -407,6 +910,15 @@
 export default {
   data() {
     return {
+      save1: "saveGray.svg",
+      save2: "saveGray.svg",
+      save3: "saveGray.svg",
+      save4: "saveGray.svg",
+      save5: "saveGray.svg",
+      save6: "saveGray.svg",
+      save7: "saveGray.svg",
+      save8: "saveGray.svg",
+      save9: "saveGray.svg",
       up1: "upGray.svg",
       up2: "upGray.svg",
       up3: "upGray.svg",
@@ -418,6 +930,69 @@ export default {
     };
   },
   methods: {
+    changeSave1() {
+      if (this.save1 == "saveGray.svg") {
+        this.save1 = "saveGold.svg";
+      } else {
+        this.save1 = "saveGray.svg";
+      }
+    },
+    changeSave2() {
+      if (this.save2 == "saveGray.svg") {
+        this.save2 = "saveGold.svg";
+      } else {
+        this.save2 = "saveGray.svg";
+      }
+    },
+    changeSave3() {
+      if (this.save3 == "saveGray.svg") {
+        this.save3 = "saveGold.svg";
+      } else {
+        this.save3 = "saveGray.svg";
+      }
+    },
+    changeSave4() {
+      if (this.save4 == "saveGray.svg") {
+        this.save4 = "saveGold.svg";
+      } else {
+        this.save4 = "saveGray.svg";
+      }
+    },
+    changeSave5() {
+      if (this.save5 == "saveGray.svg") {
+        this.save5 = "saveGold.svg";
+      } else {
+        this.save5 = "saveGray.svg";
+      }
+    },
+    changeSave6() {
+      if (this.save6 == "saveGray.svg") {
+        this.save6 = "saveGold.svg";
+      } else {
+        this.save6 = "saveGray.svg";
+      }
+    },
+    changeSave7() {
+      if (this.save7 == "saveGray.svg") {
+        this.save7 = "saveGold.svg";
+      } else {
+        this.save7 = "saveGray.svg";
+      }
+    },
+    changeSave8() {
+      if (this.save8 == "saveGray.svg") {
+        this.save8 = "saveGold.svg";
+      } else {
+        this.save8 = "saveGray.svg";
+      }
+    },
+    changeSave9() {
+      if (this.save9 == "saveGray.svg") {
+        this.save9 = "saveGold.svg";
+      } else {
+        this.save9 = "saveGray.svg";
+      }
+    },
     changeUp1() {
       if (this.up1 == "upGray.svg") {
         this.up1 = "upGreen.svg";
