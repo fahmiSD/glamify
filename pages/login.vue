@@ -32,8 +32,9 @@
       </div>
       <div class="text-center md:mb-[80px] mb-7">
         <button
+          @click="onSubmit"
           type="submit"
-          class="bg-[#FBF5E3] rounded-[10px] md:w-[119px] md:h-[40px] px-8 py-2"
+          class="bg-[#FBF5E3] rounded-[10px] md:w-[119px] md:h-[40px] px-8 py-2 md:px-0 md:py-0"
         >
           <p class="text-[#164D4D] font-inter font-bold">SUBMIT</p>
         </button>
@@ -50,6 +51,13 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+function onSubmit() {
+  const auth = useAuth();
+  auth.value.isAuthenticated = true;
+  console.log(auth.value.isAuthenticated);
+  navigateTo("/");
+}
+</script>
 
 <style scoped></style>
