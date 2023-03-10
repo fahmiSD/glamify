@@ -1803,7 +1803,7 @@
             Psoriasis
           </p>
           <img
-            src="psoriasis.svg"
+            src="/psoriasis.svg"
             alt=""
             class="w-[137px] h-[126px] md:w-full md:h-full object-cover object-center rounded-3xl"
           />
@@ -1813,7 +1813,7 @@
             Hyperpigmentation
           </p>
           <img
-            src="hyperpigmentation.svg"
+            src="/hyperpigmentation.svg"
             alt=""
             class="w-[137px] h-[126px] md:w-full md:h-full object-cover object-center rounded-3xl"
           />
@@ -1823,7 +1823,7 @@
             Rejuvenation
           </p>
           <img
-            src="rejuvenation.svg"
+            src="/rejuvenation.svg"
             alt=""
             class="w-[137px] h-[126px] md:w-full md:h-full object-cover object-center rounded-3xl"
           />
@@ -1833,7 +1833,7 @@
             Acne
           </p>
           <img
-            src="acne.svg"
+            src="/acne.svg"
             alt=""
             class="w-[137px] h-[126px] md:w-full md:h-full object-cover object-center rounded-3xl"
           />

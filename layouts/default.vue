@@ -73,7 +73,7 @@
           <div class="flex justify-center">
             <!-- The button to open modal -->
             <label for="modalNavbar" class="pt-1.5">
-              <img src="burgerNav.svg" alt="" />
+              <img src="/burgerNav.svg" alt="" />
             </label>
 
             <!-- Put this part before </body> tag -->
