@@ -662,7 +662,7 @@
                     <div
                       class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
                     >
-                      <img src="/like.svg" alt="" />
+                      <img src="/Like.svg" alt="" />
                     </div>
                   </div>
                 </div>
@@ -690,7 +690,7 @@
                     <div
                       class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
                     >
-                      <img src="/like.svg" alt="" />
+                      <img src="/Like.svg" alt="" />
                     </div>
                   </div>
                 </div>
@@ -718,7 +718,7 @@
                     <div
                       class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
                     >
-                      <img src="/like.svg" alt="" />
+                      <img src="/Like.svg" alt="" />
                     </div>
                   </div>
                 </div>
@@ -746,7 +746,7 @@
                     <div
                       class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
                     >
-                      <img src="/like.svg" alt="" />
+                      <img src="/Like.svg" alt="" />
                     </div>
                   </div>
                 </div>
@@ -816,7 +816,7 @@
                     <div
                       class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
                     >
-                      <img src="/like.svg" alt="" />
+                      <img src="/Like.svg" alt="" />
                     </div>
                   </div>
                 </div>
@@ -844,7 +844,7 @@
                     <div
                       class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
                     >
-                      <img src="/like.svg" alt="" />
+                      <img src="/Like.svg" alt="" />
                     </div>
                   </div>
                 </div>
@@ -872,7 +872,7 @@
                     <div
                       class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
                     >
-                      <img src="/like.svg" alt="" />
+                      <img src="/Like.svg" alt="" />
                     </div>
                   </div>
                 </div>
@@ -907,7 +907,7 @@
                     <div
                       class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
                     >
-                      <img src="/like.svg" alt="" />
+                      <img src="/Like.svg" alt="" />
                     </div>
                   </div>
                 </div>
@@ -935,7 +935,7 @@
                     <div
                       class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
                     >
-                      <img src="/like.svg" alt="" />
+                      <img src="/Like.svg" alt="" />
                     </div>
                   </div>
                 </div>
@@ -963,7 +963,7 @@
                     <div
                       class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
                     >
-                      <img src="/like.svg" alt="" />
+                      <img src="/Like.svg" alt="" />
                     </div>
                   </div>
                 </div>
@@ -991,7 +991,7 @@
                     <div
                       class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
                     >
-                      <img src="/like.svg" alt="" />
+                      <img src="/Like.svg" alt="" />
                     </div>
                   </div>
                 </div>
@@ -1083,7 +1083,7 @@
                 <div
                   class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
                 >
-                  <img src="/like.svg" alt="" />
+                  <img src="/Like.svg" alt="" />
                 </div>
               </div>
             </div>
@@ -1111,7 +1111,7 @@
                 <div
                   class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
                 >
-                  <img src="/like.svg" alt="" />
+                  <img src="/Like.svg" alt="" />
                 </div>
               </div>
             </div>
@@ -1139,7 +1139,7 @@
                 <div
                   class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
                 >
-                  <img src="/like.svg" alt="" />
+                  <img src="/Like.svg" alt="" />
                 </div>
               </div>
             </div>
@@ -1167,7 +1167,7 @@
                 <div
                   class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
                 >
-                  <img src="/like.svg" alt="" />
+                  <img src="/Like.svg" alt="" />
                 </div>
               </div>
             </div>
@@ -1195,7 +1195,7 @@
                 <div
                   class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
                 >
-                  <img src="/like.svg" alt="" />
+                  <img src="/Like.svg" alt="" />
                 </div>
               </div>
             </div>
@@ -1223,7 +1223,7 @@
                 <div
                   class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
                 >
-                  <img src="/like.svg" alt="" />
+                  <img src="/Like.svg" alt="" />
                 </div>
               </div>
             </div>
@@ -1251,7 +1251,7 @@
                 <div
                   class="w-[43px] h-[33px] border border-[#164d4d] rounded-xl flex items-center justify-center drop-shadow-lg"
                 >
-                  <img src="/like.svg" alt="" />
+                  <img src="/Like.svg" alt="" />
                 </div>
               </div>
             </div>

@@ -55,7 +55,7 @@
                             cols="25"
                             rows="6"
                             class="rounded-3xl border-2 border-[#e6e6e6] bg-[#f9f9f9] focus:outline-none ring-inset focus:ring focus:ring-[#207a7a] focus:border-[#207a7a] placeholder:text-center placeholder:font-light text-center p-3"
-                            placeholder="Describe your experience with the product... Did you like it? Do you have any tips on how to make the most out of the product?..."
+                            placeholder="Describe your experience with the product... Did you Like it? Do you have any tips on how to make the most out of the product?..."
                           ></textarea>
                         </div>
                         <div class="flex justify-center mb-3">
