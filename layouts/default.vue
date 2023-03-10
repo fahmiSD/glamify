@@ -6,8 +6,8 @@
       <nav
         class="container mx-auto h-[79px] md:flex items-center justify-around hidden"
       >
-        <a href="/"
-          ><p class="text-white font-bold text-xl">glamify beauty</p></a
+        <NuxtLink href="/"
+          ><p class="text-white font-bold text-xl">glamify beauty</p></NuxtLink
         >
         <form>
           <div class="flex">
@@ -52,11 +52,11 @@
             >
           </li>
           <li>
-            <a href="/detail-product"
+            <NuxtLink href="/detail-product"
               ><p class="text-white text-center">
                 Review <br />
                 Product
-              </p></a
+              </p></NuxtLink
             >
           </li>
           <li class="flex items-center">
