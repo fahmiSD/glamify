@@ -59,12 +59,14 @@
               </p></a
             >
           </li>
-          <li>
-            <NuxtLink to="/login" class=""
-              ><p class="text-white text-center">
-                Login / <br />Sign up
-              </p></NuxtLink
-            >
+          <li class="flex items-center">
+            <NuxtLink to="/login">
+              <p
+                class="text-white text-center"
+                @click="logout"
+                v-html="login()"
+              ></p>
+            </NuxtLink>
           </li>
         </ul>
       </nav>
@@ -110,11 +112,10 @@
                         <a href="/login" class=""
                           ><p
                             class="text-center text-[#164d4d] font-semibold text-xl"
-                          >
-                            Login / <br />
-                            Sign up
-                          </p></a
-                        >
+                            @click="logout"
+                            v-html="login()"
+                          ></p
+                        ></a>
                       </li>
                     </ul>
                   </label>
@@ -189,6 +190,22 @@
     </footer>
   </div>
 </template>
+
+<script setup>
+const auth = useAuth();
+
+const login = () => {
+  if (auth.value.isAuthenticated === false) {
+    return `Login / <br/> Sign up`;
+  } else {
+    return "Log out";
+  }
+};
+
+const logout = () => {
+  auth.value.isAuthenticated = false;
+};
+</script>
 
 <style scoped>
 .router-link-exact-active {
