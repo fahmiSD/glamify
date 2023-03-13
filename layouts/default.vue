@@ -73,41 +73,45 @@
       <nav class="md:hidden">
         <div class="flex justify-around">
           <div class="flex justify-center">
-            <!-- The button to open modal -->
             <label for="modalNavbar" class="pt-1.5">
               <img src="/burgerNav.svg" alt="" />
             </label>
 
-            <!-- Put this part before </body> tag -->
             <input type="checkbox" id="modalNavbar" class="modal-toggle" />
             <div class="modal">
-              <div class="modal-box relative bg-white h-screen">
+              <div class="modal-box relative bg-green h-screen p-0">
                 <label for="modalNavbar" class="absolute right-4 top-4"
-                  ><img src="/xModal.svg" alt=""
+                  ><img src="/xModalWhite.svg" alt=""
                 /></label>
                 <div class="flex flex-col">
                   <label for="modalNavbar">
-                    <ul class="flex flex-col gap-10 pt-10">
+                    <ul class="flex flex-col">
+                      <li>
+                        <a href="/"
+                          ><p
+                            class="text-[#FBF5E3] font-bold text-2xl pt-5 pl-5 pb-5"
+                          >
+                            glamify beauty
+                          </p></a
+                        >
+                      </li>
+                      <hr class="border-[1px]" />
                       <li>
                         <a href="/product-recomendation"
-                          ><p
-                            class="text-center text-[#164d4d] font-semibold text-xl"
-                          >
-                            Recomendation <br />
-                            Request
+                          ><p class="text-[#FBF5E3] font-light p-5">
+                            Recomendation request
                           </p></a
                         >
                       </li>
+                      <hr class="border-[1px]" />
                       <li>
                         <a href="/detail-product"
-                          ><p
-                            class="text-center text-[#164d4d] font-semibold text-xl"
-                          >
-                            Review <br />
-                            Product
+                          ><p class="text-[#FBF5E3] font-light p-5">
+                            Product review
                           </p></a
                         >
                       </li>
+                      <hr class="border-[1px]" />
                       <li>
                         <a href="/login" class=""
                           ><p
@@ -129,7 +133,9 @@
             >
           </div>
           <div class="flex justify-center">
-            <img src="/user.svg" alt="" />
+            <a href="/login">
+              <img src="/user.svg" alt="" />
+            </a>
           </div>
         </div>
         <div>
