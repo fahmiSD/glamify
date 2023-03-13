@@ -141,7 +141,7 @@
 </template>
 
 <script setup>
-const auth = useCookie("auth");
+const auth = useCookie("auth", false);
 
 const login = () => {
   if (auth.value === false) {
