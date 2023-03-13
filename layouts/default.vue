@@ -79,7 +79,9 @@
 
             <input type="checkbox" id="modalNavbar" class="modal-toggle" />
             <div class="modal">
-              <div class="modal-box relative bg-green h-screen p-0">
+              <div
+                class="modal-box relative bg-green h-screen p-0 rounded-none border border-[#FBF5E3]"
+              >
                 <label for="modalNavbar" class="absolute right-4 top-4"
                   ><img src="/xModalWhite.svg" alt=""
                 /></label>
@@ -112,15 +114,18 @@
                         >
                       </li>
                       <hr class="border-[1px]" />
-                      <li>
-                        <a href="/login" class=""
-                          ><p
-                            class="text-center text-[#164d4d] font-semibold text-xl"
-                            @click="logout"
-                            v-html="login()"
-                          ></p
-                        ></a>
-                      </li>
+                      <li class="p-7"></li>
+                      <hr class="border-[1px]" />
+                      <li class="p-7"></li>
+                      <hr class="border-[1px]" />
+                      <li class="p-7"></li>
+                      <hr class="border-[1px]" />
+                      <li class="p-7"></li>
+                      <hr class="border-[1px]" />
+                      <li class="p-7"></li>
+                      <hr class="border-[1px]" />
+                      <li class="p-7"></li>
+                      <hr class="border-[1px]" />
                     </ul>
                   </label>
                 </div>
