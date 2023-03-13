@@ -144,10 +144,10 @@
 const auth = useCookie("auth", false);
 
 const login = () => {
-  if (auth.value === false) {
-    return `Login / <br/> Sign up`;
+  if (auth.value === true) {
+    return `Log out`;
   } else {
-    return "Log out";
+    return "Login / <br/> Sign up";
   }
 };
 
