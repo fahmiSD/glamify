@@ -26,7 +26,6 @@
       <button @click="clicked" type="button" class="bg-[#FBF5E3] rounded-[10px] md:w-[119px] md:h-[40px] px-8 py-2 md:px-0 md:py-0">
         <p class="text-[#164D4D] font-inter font-bold">SUBMIT</p>
       </button>
-      <NuxtLink :to="'/'" @click.prevent="clicked()">easy</NuxtLink>
     </div>
     <div class="text-center">
       <a href="/signup" class="text-[#FBF5E3] font-inter underline underline-offset-4 font-semibold"
