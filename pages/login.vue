@@ -36,7 +36,6 @@
       >
         <p class="text-[#164D4D] font-inter font-bold">SUBMIT</p>
       </button>
-      <NuxtLink :to="'/'" @click.prevent="clicked()"></NuxtLink>
     </div>
     <div class="text-center">
       <a
